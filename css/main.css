@@ -9,9 +9,9 @@
 }
 
 .page {
-  width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 960px;
+  margin: 0 auto;
+  min-width: 960px;
 }
 
 a {
@@ -20,8 +20,7 @@ a {
 
 .content {
   display: flex;
-  flex-direction: row;
-  margin-top: 48px;
+  margin-top: 96px;
 }
 
 .photo {
@@ -36,53 +35,50 @@ a {
 }
 
 .header > h1 {
-  font-size: 48px;
+  font-size: 40px;
   margin-top: 0px;
   margin-bottom: 8px;
 }
 
 .header > h2 {
-  font-size: 36px;
+  font-size: 32px;
   margin-top: 8px;
   margin-bottom: 8px;
 }
 
 .bio {
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   flex-direction: column;
-  margin-top: 48px;
+  margin-top: 24px;
 }
 
 .bio-row {
   display: inline-flex;
-  flex-direction: row;
   align-items: center;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .bio-emoji {
-  margin: 8px;
+  margin: 4px;
 }
 
 .bio-icon {
   width: 18px;
-  margin: 8px;
+  margin: 4px;
 }
 
 .inline-content {
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding-left: 4px;
 }
 
 .links {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 48px;
+  margin-top: 24px;
 }
 
 .link {
@@ -90,7 +86,6 @@ a {
   padding: 4px;
   margin: 4px;
   display: inline-flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -99,6 +94,6 @@ a {
 }
 
 .link-text {
-  font-size: 14px;
-  margin-left: 8px;
+  font-size: 12px;
+  margin-left: 4px;
 }
