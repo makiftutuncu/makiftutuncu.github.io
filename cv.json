@@ -1,0 +1,209 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "work": "Work",
+    "skills": "Skills & Experiences",
+    "projects": "Projects",
+    "awards": "Miscellaneous"
+  },
+  "basics": {
+    "name": "Mehmet Akif Tütüncü",
+    "email": "m.akif.tutuncu@gmail.com",
+    "phone": "+905342523388",
+    "location": {
+      "address": "Istanbul, Turkey"
+    },
+    "website": "akif.dev"
+  },
+  "education": [
+    {
+      "institution": "Izmir Institute of Technology",
+      "location": "Izmir, Turkey",
+      "area": "Computer Engineering",
+      "studyType": "BS",
+      "endDate": "2014",
+      "startDate": "2009"
+    }
+  ],
+  "work": [
+    {
+      "location": "Istanbul, Turkey",
+      "position": "Senior Software Engineer",
+      "website": "sahibinden.com",
+      "startDate": "09/2019",
+      "highlights": [
+        "Worked in search team on search, promotion and category domains",
+        "- Automated the process of keeping address data up-to-date",
+        "- Used Java, Kotlin, Spring, Hibernate, MySQL, MongoDB and Elasticsearch"
+      ],
+      "company": "sahibinden.com"
+    },
+    {
+      "highlights": [
+        "Worked in the ​MAF Properties​ team",
+        "- Assisted in the kick-off process for their latest product",
+        "Worked in the ​Beam​ team",
+        "- Migrated a mobile payment system from Sydney to Dubai",
+        "- Analyzed, designed and implemented new services",
+        "- Used Scala, Java, ElasticSearch, PostgreSQL, Akka, S3, RDS, EC2, Kinesis",
+        "Worked in the ​Socrata​ team",
+        "- Designed, developed and maintained multiple projects",
+        "- Used Scala, Java, Ruby, JavaScript, ActiveMQ, ElasticSearch, PostgreSQL, Akka, MemCached"
+      ],
+      "company": "VNGRS",
+      "website": "vngrs.com",
+      "position": "Software Engineer",
+      "location": "Istanbul, Turkey",
+      "startDate": "Jun 2017",
+      "endDate": "Sep 2019"
+    },
+    {
+      "highlights": [
+        "Worked in the ​Shazam​ team",
+        "- Had varying tasks from developing features, fixing bugs, writing automated tests to maintaining projects",
+        "- Used Scala, Play Framework, MySQL, SQS, SWF, S3, SES, RedShift, RDS, EC2, Akka, Redis"
+      ],
+      "company": "Linovi",
+      "position": "Software Engineer",
+      "location": "Izmir, Turkey",
+      "startDate": "Nov 2013",
+      "endDate": "Nov 2016"
+    },
+    {
+      "highlights": [
+        "Worked on a game/application for the education of pre-school children",
+        "Developed a prototype for a call-management and auto-replying application"
+      ],
+      "company": "iDivino",
+      "position": "Part-Time Android Developer",
+      "location": "Izmir, Turkey",
+      "startDate": "Sep 2012",
+      "endDate": "Sep 2013"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Java",
+        "Kotlin",
+        "Scala"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "level": "",
+      "keywords": [
+        "Akka",
+        "AWS",
+        "Docker",
+        "ElasticSearch",
+        "MySQL",
+        "Firebase",
+        "Play Framework",
+        "Spring",
+        "PostgreSQL"
+      ],
+      "name": "Tools"
+    },
+    {
+      "level": "",
+      "keywords": [
+        "Agile",
+        "CI/CD",
+        "Kanban",
+        "SCRUM",
+        "Testing"
+      ],
+      "name": "Methods"
+    }
+  ],
+  "projects": [
+    {
+      "url": "github.com/makiftutuncu/e",
+      "keywords": [
+        "Scala",
+        "Kotlin",
+        "Java",
+        "circe",
+        "play-json",
+        "gson",
+        "ZIO",
+        "munit"
+      ],
+      "name": "e",
+      "description": "Zero-dependency, extendible micro library to deal with errors"
+    },
+    {
+      "keywords": [
+        "Scala",
+        "Java",
+        "Play Framework",
+        "PostgreSQL",
+        "Anorm",
+        "Akka",
+        "Specs"
+      ],
+      "name": "Muezzin",
+      "description": "Android application and API for Islamic prayer times",
+      "url": "github.com/makiftutuncu/Muezzin"
+    },
+    {
+      "keywords": [
+        "Scala",
+        "Finch",
+        "Scalatest",
+        "Postman",
+        "Docker",
+        "Flyway",
+        "Doobie",
+        "PostgreSQL"
+      ],
+      "name": "Bookstore",
+      "description": "A project demonstrating different types and styles of automated testing on a backend application",
+      "url": "github.com/makiftutuncu/bookstore"
+    },
+    {
+      "keywords": [
+        "Kotlin",
+        "JUnit"
+      ],
+      "name": "k-retry",
+      "description": "Naive retry implementation",
+      "url": "github.com/makiftutuncu/k-retry"
+    },
+    {
+      "keywords": [
+        "Scala",
+        "Scalatest"
+      ],
+      "name": "Dürüm",
+      "description": "HTTP wrapper for behavior of handling a request in a server app",
+      "url": "github.com/makiftutuncu/durum"
+    }
+  ],
+  "awards": [
+    {
+      "title": "AWS Certified Solution Architect",
+      "summary": "Associate Level",
+      "awarder": "Jun 2018 - Jun 2020"
+    },
+    {
+      "title": "Lectures, Talks and Blogs",
+      "summary": "about tech, mostly on Scala and Android"
+    },
+    {
+      "title": "Open Source",
+      "summary": "releasing my work as open source, making contributions and supporting"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "projects",
+    "skills",
+    "education",
+    "awards"
+  ]
+}

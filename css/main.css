@@ -56,8 +56,8 @@ a {
 .bio-row {
   display: inline-flex;
   align-items: center;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .bio-emoji {
@@ -96,4 +96,22 @@ a {
 .link-text {
   font-size: 12px;
   margin-left: 4px;
+}
+
+.cv {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.cv-row {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.cv-emoji {
+  margin: 4px;
 }
