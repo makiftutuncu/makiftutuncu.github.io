@@ -29,6 +29,7 @@ a {
 .photo img{
   width: 550px;
   height: 550px;
+  border-radius: 8px;
 }
 
 .text {
@@ -90,11 +91,16 @@ a {
 }
 
 .link {
-  border: 1px solid black;
+  border: 1px solid #d5d5d5;
   padding: 4px;
   margin: 4px;
   display: inline-flex;
   align-items: center;
+  border-radius: 8px;
+}
+
+.link:hover{
+  border: 1px solid #666;
 }
 
 .link-icon {
@@ -136,12 +142,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
   }
   .content .photo img{
     width: 250px;
     height: 250px;
-    border-radius: 50%;
+    border-radius: 8px;
+  }
+  .link {
+    border: 1px solid #666;
   }
   .text{
     margin:60px 30px;
