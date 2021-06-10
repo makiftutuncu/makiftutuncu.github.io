@@ -28,14 +28,16 @@
   "work": [
     {
       "highlights": [
-        "Just joined Personal Finance Management team",
-        "Working remotely"
+        "Working remotely in Personal Finance Management team",
+        "- Developing new features to Numbrs app backend",
+        "- Using Java, Scala, Go, Spring, Hibernate, Play, PostgreSQL and Cassandra"
       ],
       "company": "Numbrs",
       "position": "Software Engineer",
       "location": "Istanbul, Turkey",
       "startDate": "Dec 2020"
-    },{
+    },
+    {
       "location": "Istanbul, Turkey",
       "position": "Senior Software Engineer",
       "website": "sahibinden.com",
@@ -212,8 +214,8 @@
     "profile",
     "work",
     "projects",
-    "skills",
     "education",
+    "skills",
     "awards"
   ]
 }
