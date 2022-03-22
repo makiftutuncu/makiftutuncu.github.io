@@ -29,6 +29,7 @@ a {
 .photo img {
   width: 540px;
   height: 540px;
+  border-radius: 50%;
 }
 
 .text {
