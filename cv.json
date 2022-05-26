@@ -1,231 +1,551 @@
 {
-  "selectedTemplate": 2,
-  "headings": {
-    "work": "Work",
-    "skills": "Skills & Experiences",
-    "projects": "Projects",
-    "awards": "Miscellaneous"
-  },
-  "basics": {
-    "name": "Mehmet Akif Tütüncü",
-    "email": "m.akif.tutuncu@gmail.com",
-    "phone": "+905342523388",
-    "location": {
-      "address": "Istanbul, Turkey"
+    "basics": {
+        "name": "Mehmet Akif Tütüncü",
+        "email": "mat@akif.dev",
+        "phone": "",
+        "photo": {
+            "url": "https://cdn.rxresu.me/uploads/71451/69131/1653393132667.jpg",
+            "filters": {
+                "size": 128,
+                "shape": "circle",
+                "border": true,
+                "grayscale": false
+            },
+            "visible": true
+        },
+        "summary": "I'm a senior software engineer focused mainly on backend. I have more than 9 years of professional experience in software development. I've conducted consulting, training and worked with companies around the world such as Shazam, Socrata, Beam/MAF, sahibinden, Numbrs, Scalac and Conduktor. I am proficient in Scala, Java, Kotlin using both object-oriented and functional programming. I have skills in CI/CD, testing, databases, cloud applications, microservices. I am a fan of open-source software.",
+        "website": "https://akif.dev",
+        "headline": "",
+        "location": {
+            "city": "Istanbul",
+            "region": "",
+            "address": "",
+            "country": "Turkey",
+            "postalCode": ""
+        },
+        "profiles": [
+            {
+                "id": "ffd1d1fe-edef-4f27-b530-7549a0e58d6c",
+                "url": "https://github.com/makiftutuncu",
+                "network": "GitHub",
+                "username": "makiftutuncu"
+            },
+            {
+                "id": "a8770047-b763-448b-a847-641c30096304",
+                "url": "https://linkedin.com/in/makiftutuncu",
+                "network": "LinkedIn",
+                "username": "makiftutuncu"
+            },
+            {
+                "id": "a6393bfa-e6fa-4a47-af95-3483775ba0bf",
+                "url": "https://twitter.com/makiftutuncu",
+                "network": "Twitter",
+                "username": "makiftutuncu"
+            }
+        ],
+        "birthdate": "1991-03-22T22:00:00.000Z"
     },
-    "website": "https://akif.dev"
-  },
-  "education": [
-    {
-      "institution": "Izmir Institute of Technology",
-      "location": "Izmir, Turkey",
-      "area": "Computer Engineering",
-      "studyType": "BS",
-      "endDate": "2014",
-      "startDate": "2009"
-    }
-  ],
-  "work": [
-    {
-      "highlights": [
-        "Just joined"
-      ],
-      "company": "Scalac",
-      "position": "Senior Scala Engineer",
-      "location": "Istanbul, Turkey",
-      "startDate": "Nov 2021"
+    "sections": {
+        "work": {
+            "id": "work",
+            "name": "Work Experience",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "9fd2e3ff-547f-4aea-9821-37742a86a93d",
+                    "url": "",
+                    "date": {
+                        "end": "",
+                        "start": "2021-11-01T10:42:40.000Z"
+                    },
+                    "name": "Scalac",
+                    "summary": "I worked with Conduktor as a consultant. I migrated part of their legacy Java API to a new Scala service. It included an automated mechanism to check for correctness. I helped build user and organization management features handling multiple Conduktor products.",
+                    "position": "Senior Software Engineer"
+                },
+                {
+                    "id": "62f3e710-aef5-4726-bb20-69b93b009770",
+                    "url": "",
+                    "date": {
+                        "end": "2021-10-31T21:00:00.000Z",
+                        "start": "2020-11-30T21:00:00.000Z"
+                    },
+                    "name": "Numbrs",
+                    "summary": "I worked in Personal Finance Management team. I was responsible for developing new features to Numbrs app backend.",
+                    "position": "Software Engineer"
+                },
+                {
+                    "id": "b1060973-1d02-4d1c-b375-b40574b0fba3",
+                    "url": "",
+                    "date": {
+                        "end": "2020-11-30T21:00:00.000Z",
+                        "start": "2019-08-31T21:00:00.000Z"
+                    },
+                    "name": "Sahibinden",
+                    "summary": "I worked in the search team. The domains I usually dealt with were search, promotions and categories. I also automated the process of updating location and geo data.",
+                    "position": "Senior Software Engineer"
+                },
+                {
+                    "id": "f01a9ab3-b14e-482d-ba03-899728a425c7",
+                    "url": "",
+                    "date": {
+                        "end": "2019-08-31T21:00:00.000Z",
+                        "start": "2017-05-31T21:00:00.000Z"
+                    },
+                    "name": "VNGRS",
+                    "summary": "I consulted in multiple projects. In MAF Properties team, I worked in the kick-off process for their latest product. In Beam team, I helped migrate and maintain a mobile payment system. In Socrata team, I helped design, develop and maintain multiple backend projects.",
+                    "position": "Software Engineer"
+                },
+                {
+                    "id": "b1277dc8-2c98-4a64-9e7d-119d43c7cafb",
+                    "url": "",
+                    "date": {
+                        "end": "2016-10-31T21:00:00.000Z",
+                        "start": "2013-10-31T22:00:00.000Z"
+                    },
+                    "name": "Linovi",
+                    "summary": "I started as a part-time here. Then joined Shazam team. I had varying tasks from developing features, fixing bugs, writing automated tests to maintaining projects.",
+                    "position": "Software Engineer"
+                },
+                {
+                    "id": "9f232e3f-8e62-4510-847e-3f1785630d71",
+                    "url": "",
+                    "date": {
+                        "end": "2013-08-31T21:00:00.000Z",
+                        "start": "2012-08-31T21:00:00.000Z"
+                    },
+                    "name": "iDivino",
+                    "summary": "I worked part-time on developing games for preschool children.",
+                    "position": "Android Developer"
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "awards": {
+            "id": "awards",
+            "name": "Awards",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": false
+        },
+        "skills": {
+            "id": "skills",
+            "name": "Skills",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "8344b4c9-f06b-444a-a11e-7701bd9cb31c",
+                    "name": "Frameworks/Libraries/Tools",
+                    "level": "",
+                    "keywords": [
+                        "Akka",
+                        "AWS",
+                        "cats",
+                        "circe",
+                        "Docker",
+                        "Elasticsearch",
+                        "git",
+                        "Gradle",
+                        "http4s",
+                        "JUnit",
+                        "Kafka",
+                        "Play Framework",
+                        "Quill",
+                        "SBT",
+                        "ScalaTest",
+                        "Spring Framework",
+                        "tapir",
+                        "ZIO"
+                    ],
+                    "levelNum": 0
+                },
+                {
+                    "id": "fbf0da24-6218-43ba-9d2f-61cdceb5f62e",
+                    "name": "Databases",
+                    "level": "",
+                    "keywords": [
+                        "Cassandra",
+                        "DynamoDB",
+                        "Firebase",
+                        "MongoDB",
+                        "MySQL",
+                        "PostgreSQL",
+                        "Redis"
+                    ],
+                    "levelNum": 0
+                },
+                {
+                    "id": "3c94bacd-ce01-4851-8792-a2014ad38e17",
+                    "name": "Progamming Languages",
+                    "level": "",
+                    "keywords": [
+                        "Java",
+                        "Kotlin",
+                        "Scala"
+                    ],
+                    "levelNum": 0
+                },
+                {
+                    "id": "f24db60a-6773-45cd-897f-537181650c93",
+                    "name": "Techniques",
+                    "level": "",
+                    "keywords": [
+                        "Agile",
+                        "CI/CD",
+                        "DDD",
+                        "Kanban",
+                        "Microservices",
+                        "SCRUM",
+                        "TDD"
+                    ],
+                    "levelNum": 0
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "projects": {
+            "id": "projects",
+            "name": "Projects",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "94a28c3f-5f8c-4013-85ec-bc4328bf945a",
+                    "url": "https://github.com/makiftutuncu/e",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "name": "e",
+                    "summary": "",
+                    "keywords": [
+                        "Scala",
+                        "Kotlin",
+                        "Java",
+                        "circe",
+                        "play-json",
+                        "gson",
+                        "ZIO",
+                        "munit"
+                    ],
+                    "description": "Scala library for error handling"
+                },
+                {
+                    "id": "5e097794-530c-48cc-ad46-3ddcdcce3767",
+                    "url": "https://github.com/makiftutuncu/Muezzin",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "name": "Muezzin",
+                    "summary": "",
+                    "keywords": [
+                        "Scala",
+                        "Java",
+                        "Play Framework",
+                        "PostgreSQL",
+                        "Anorm",
+                        "Akka"
+                    ],
+                    "description": "Android application and server"
+                },
+                {
+                    "id": "a015471c-1b7b-40cd-9a43-f2a2a28e49b2",
+                    "url": "https://github.com/makiftutuncu/bookstore",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "name": "Bookstore",
+                    "summary": "",
+                    "keywords": [
+                        "Scala",
+                        "Finch",
+                        "ScalaTest",
+                        "Postman",
+                        "Docker",
+                        "Flyway",
+                        "Doobie",
+                        "PostgreSQL"
+                    ],
+                    "description": "A project demonstrating automated testing on backend"
+                },
+                {
+                    "id": "cebea956-58f2-439e-b1c2-d089d3a25298",
+                    "url": "https://github.com/makiftutuncu/k-retry",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "name": "k-retry",
+                    "summary": "",
+                    "keywords": [
+                        "Kotlin",
+                        "JUnit"
+                    ],
+                    "description": "Naive retry implementation"
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "education": {
+            "id": "education",
+            "name": "Education",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "1fa551c9-3b14-4a31-8440-5112c1f76f1d",
+                    "url": "",
+                    "area": "Computer Engineering",
+                    "date": {
+                        "end": "2014-06-30T21:00:00.000Z",
+                        "start": "2009-08-31T21:00:00.000Z"
+                    },
+                    "score": "",
+                    "degree": "Bachelor's Degree",
+                    "courses": [],
+                    "summary": "Education in English, focused on software, started my career halfway through with internships and part-time positions",
+                    "institution": "Izmir Institute of Technology"
+                }
+            ],
+            "columns": 1,
+            "visible": true
+        },
+        "interests": {
+            "id": "interests",
+            "name": "Interests",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": false
+        },
+        "languages": {
+            "id": "languages",
+            "name": "Languages",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "ca0d5193-14cb-4daa-b287-48d7bc125c51",
+                    "name": "Turkish",
+                    "level": "Native",
+                    "levelNum": 0
+                },
+                {
+                    "id": "29e9bca8-51d5-42c4-929b-c233db246ddc",
+                    "name": "English",
+                    "level": "Professional",
+                    "levelNum": 0
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "volunteer": {
+            "id": "volunteer",
+            "name": "Volunteer Experience",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "a9742d33-0c10-46f3-b167-2aea28c53053",
+                    "url": "",
+                    "date": {
+                        "end": "2021-01-31T21:00:00.000Z",
+                        "start": "2020-12-31T21:00:00.000Z"
+                    },
+                    "summary": "I gave introduction to Scala and functional programming lectures.",
+                    "position": "Instructor",
+                    "organization": "Kodluyoruz"
+                },
+                {
+                    "id": "ea92b639-1bc8-4d8d-bd6f-511534f2d8fc",
+                    "url": "",
+                    "date": {
+                        "end": "2013-04-30T21:00:00.000Z",
+                        "start": "2013-01-31T22:00:00.000Z"
+                    },
+                    "summary": "I gave Android lectures in student club at my university.",
+                    "position": "Instructor",
+                    "organization": "Izmir Institute of Technology"
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "references": {
+            "id": "references",
+            "name": "References",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": false
+        },
+        "publications": {
+            "id": "publications",
+            "name": "Articles",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "62bca297-80d8-435c-b3bd-3fe95d1455a9",
+                    "url": "http://makiftutuncu.wordpress.com",
+                    "date": "2015-12-31T22:00:00.000Z",
+                    "name": "Scala Blog",
+                    "summary": "",
+                    "publisher": "Wordpress"
+                },
+                {
+                    "id": "60608cf0-e54b-4b7b-aa37-f2caf590ed07",
+                    "url": "http://androidce.blogspot.com",
+                    "date": "2012-01-31T22:00:00.000Z",
+                    "name": "Android Blog",
+                    "summary": "",
+                    "publisher": "Blogspot"
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "certifications": {
+            "id": "certifications",
+            "name": "Certifications",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "eb1bcbfe-9f28-4a40-83ae-58ead0a0974f",
+                    "url": "",
+                    "date": "2020-06-30T21:00:00.000Z",
+                    "name": "Complete Guide to Elasticsearch",
+                    "issuer": "Udemy",
+                    "summary": ""
+                },
+                {
+                    "id": "76009100-6c43-4db8-b314-6a9e2cfe86b2",
+                    "url": "",
+                    "date": "2018-05-31T21:00:00.000Z",
+                    "name": "AWS Certified Solutions Architect - Associate",
+                    "issuer": "Amazon",
+                    "summary": ""
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "fc94cebd-969e-45a6-8815-cfa27e4c5cb2": {
+            "name": "Talks",
+            "type": "custom",
+            "items": [
+                {
+                    "id": "ba31a7ed-5d77-40b2-82f9-f4e6a26bcf51",
+                    "url": "https://youtu.be/HAQZtTZae_Q",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "level": "",
+                    "title": "Dealing with Errors on JVM with e",
+                    "summary": "",
+                    "keywords": [],
+                    "levelNum": 0,
+                    "subtitle": "ScalaUA 2020"
+                },
+                {
+                    "id": "c6e1ef36-2b6b-4f16-935c-77f4d516f7e6",
+                    "url": "https://github.com/makiftutuncu/kotlin-for-backends",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "level": "",
+                    "title": "Kotlin for Backends",
+                    "summary": "",
+                    "keywords": [],
+                    "levelNum": 0,
+                    "subtitle": "sahibinden.com D2D"
+                },
+                {
+                    "id": "744c544f-454d-4b6e-9f46-f7fdd5bbaa82",
+                    "url": "https://youtu.be/jPiM9uBHpWI",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "level": "",
+                    "title": "Typeclass 101",
+                    "summary": "",
+                    "keywords": [],
+                    "levelNum": 0,
+                    "subtitle": "VNGRS Lightning Talks"
+                },
+                {
+                    "id": "9015217e-b036-4b6b-81e4-3d0e28de625c",
+                    "url": "https://youtu.be/QnK8pyGUOac",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "level": "",
+                    "title": "Testing Web Backends With Scala",
+                    "summary": "",
+                    "keywords": [],
+                    "levelNum": 0,
+                    "subtitle": "Test Hive"
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        }
     },
-    {
-      "highlights": [
-        "Working remotely in Personal Finance Management team",
-        "- Developing new features to Numbrs app backend",
-        "- Using Java, Scala, Go, Spring, Hibernate, Play, PostgreSQL and Cassandra"
-      ],
-      "company": "Numbrs",
-      "position": "Software Engineer",
-      "location": "Istanbul, Turkey",
-      "startDate": "Dec 2020",
-      "endDate": "Nov 2021"
+    "metadata": {
+        "css": {
+            "value": "/* Enter custom CSS here */\n\n* {\n    text-align: justify;\n}\n\n.border-b {\n    border-bottom-width: 0;\n}\n\nh4.uppercase {\n    font-size: large;\n    margin-bottom: 12px;\n    padding-bottom: 6px;\n    border-bottom-width: 1px;\n}",
+            "visible": true
+        },
+        "date": {
+            "format": "MMM YYYY"
+        },
+        "theme": {
+            "text": "#000000",
+            "primary": "#222222",
+            "background": "#ffffff"
+        },
+        "layout": [
+            [
+                [
+                    "work",
+                    "projects"
+                ],
+                [
+                    "awards",
+                    "interests",
+                    "references"
+                ]
+            ],
+            [
+                [
+                    "languages",
+                    "skills",
+                    "fc94cebd-969e-45a6-8815-cfa27e4c5cb2",
+                    "publications",
+                    "volunteer",
+                    "education",
+                    "certifications"
+                ],
+                []
+            ]
+        ],
+        "locale": "en",
+        "template": "onyx",
+        "typography": {
+            "size": {
+                "body": 14,
+                "heading": 36
+            },
+            "family": {
+                "body": "Quicksand",
+                "heading": "Quicksand"
+            }
+        }
     },
-    {
-      "location": "Istanbul, Turkey",
-      "position": "Senior Software Engineer",
-      "website": "sahibinden.com",
-      "startDate": "Sep 2019",
-      "endDate": "Nov 2020",
-      "highlights": [
-        "Worked in search team on search, promotion and category domains",
-        "- Automated the process of keeping address data up-to-date",
-        "- Used Java, Kotlin, Spring, Hibernate, MySQL, MongoDB and Elasticsearch"
-      ],
-      "company": "sahibinden.com"
-    },
-    {
-      "highlights": [
-        "Worked in the ​MAF Properties​ team",
-        "- Assisted in the kick-off process for their latest product",
-        "Worked in the ​Beam​ team",
-        "- Migrated a mobile payment system from Sydney to Dubai",
-        "- Analyzed, designed and implemented new services",
-        "- Used Scala, Java, ElasticSearch, PostgreSQL, Akka, S3, RDS, EC2, Kinesis",
-        "Worked in the ​Socrata​ team",
-        "- Designed, developed and maintained multiple projects",
-        "- Used Scala, Java, Ruby, JavaScript, ActiveMQ, ElasticSearch, PostgreSQL, Akka, MemCached"
-      ],
-      "company": "VNGRS",
-      "website": "vngrs.com",
-      "position": "Software Engineer",
-      "location": "Istanbul, Turkey",
-      "startDate": "Jun 2017",
-      "endDate": "Sep 2019"
-    },
-    {
-      "highlights": [
-        "Worked in the ​Shazam​ team",
-        "- Had varying tasks from developing features, fixing bugs, writing automated tests to maintaining projects",
-        "- Used Scala, Play Framework, MySQL, SQS, SWF, S3, SES, RedShift, RDS, EC2, Akka, Redis"
-      ],
-      "company": "Linovi",
-      "position": "Software Engineer",
-      "location": "Izmir, Turkey",
-      "startDate": "Nov 2013",
-      "endDate": "Nov 2016"
-    },
-    {
-      "highlights": [
-        "Worked on a game/application for the education of pre-school children",
-        "Developed a prototype for a call-management and auto-replying application"
-      ],
-      "company": "iDivino",
-      "position": "Part-Time Android Developer",
-      "location": "Izmir, Turkey",
-      "startDate": "Sep 2012",
-      "endDate": "Sep 2013"
-    }
-  ],
-  "skills": [
-    {
-      "level": "",
-      "keywords": [
-        "Java",
-        "Kotlin",
-        "Scala"
-      ],
-      "name": "Programming Languages"
-    },
-    {
-      "level": "",
-      "keywords": [
-        "Akka",
-        "AWS",
-        "Docker",
-        "ElasticSearch",
-        "MySQL",
-        "Firebase",
-        "Play Framework",
-        "Spring",
-        "PostgreSQL"
-      ],
-      "name": "Tools"
-    },
-    {
-      "level": "",
-      "keywords": [
-        "Agile",
-        "CI/CD",
-        "Kanban",
-        "SCRUM",
-        "Testing"
-      ],
-      "name": "Methods"
-    }
-  ],
-  "projects": [
-    {
-      "url": "github.com/makiftutuncu/e",
-      "keywords": [
-        "Scala",
-        "Kotlin",
-        "Java",
-        "circe",
-        "play-json",
-        "gson",
-        "ZIO",
-        "munit"
-      ],
-      "name": "e",
-      "description": "Zero-dependency, extendible micro library to deal with errors"
-    },
-    {
-      "keywords": [
-        "Scala",
-        "Java",
-        "Play Framework",
-        "PostgreSQL",
-        "Anorm",
-        "Akka",
-        "Specs"
-      ],
-      "name": "Muezzin",
-      "description": "Android application and API for Islamic prayer times",
-      "url": "github.com/makiftutuncu/Muezzin"
-    },
-    {
-      "keywords": [
-        "Scala",
-        "Finch",
-        "Scalatest",
-        "Postman",
-        "Docker",
-        "Flyway",
-        "Doobie",
-        "PostgreSQL"
-      ],
-      "name": "Bookstore",
-      "description": "A project demonstrating different types and styles of automated testing on a backend application",
-      "url": "github.com/makiftutuncu/bookstore"
-    },
-    {
-      "keywords": [
-        "Kotlin",
-        "JUnit"
-      ],
-      "name": "k-retry",
-      "description": "Naive retry implementation",
-      "url": "github.com/makiftutuncu/k-retry"
-    },
-    {
-      "keywords": [
-        "Scala",
-        "Scalatest"
-      ],
-      "name": "Dürüm",
-      "description": "HTTP wrapper for behavior of handling a request in a server app",
-      "url": "github.com/makiftutuncu/durum"
-    }
-  ],
-  "awards": [
-    {
-      "title": "AWS Certified Solution Architect",
-      "summary": "Associate Level",
-      "awarder": "Jun 2018 - Jun 2020"
-    },
-    {
-      "title": "Lectures, Talks and Blogs",
-      "summary": "about tech, mostly on Scala and Android"
-    },
-    {
-      "title": "Open Source",
-      "summary": "releasing my work as open source, making contributions and supporting"
-    }
-  ],
-  "sections": [
-    "templates",
-    "profile",
-    "work",
-    "skills",
-    "projects",
-    "education",
-    "awards"
-  ]
+    "public": false
 }
