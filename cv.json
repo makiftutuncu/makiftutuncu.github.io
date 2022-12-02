@@ -52,10 +52,21 @@
             "type": "basic",
             "items": [
                 {
-                    "id": "9fd2e3ff-547f-4aea-9821-37742a86a93d",
-                    "url": "",
+                    "name": "iO",
+                    "position": "Senior Software Engineer",
                     "date": {
-                        "end": "",
+                        "start": "2022-12-01T00:00:00.000Z",
+                        "end": ""
+                    },
+                    "url": "https://iodigital.com",
+                    "summary": "Just started at this position",
+                    "id": "cdd56286-dbf4-4e29-a6d8-09b273f62e6a"
+                },
+                {
+                    "id": "9fd2e3ff-547f-4aea-9821-37742a86a93d",
+                    "url": "https://scalac.io",
+                    "date": {
+                        "end": "2022-10-29T23:00:00.000Z",
                         "start": "2021-11-01T10:42:40.000Z"
                     },
                     "name": "Scalac",
@@ -64,7 +75,7 @@
                 },
                 {
                     "id": "62f3e710-aef5-4726-bb20-69b93b009770",
-                    "url": "",
+                    "url": "https://www.numbrs.com",
                     "date": {
                         "end": "2021-10-31T21:00:00.000Z",
                         "start": "2020-11-30T21:00:00.000Z"
@@ -75,7 +86,7 @@
                 },
                 {
                     "id": "b1060973-1d02-4d1c-b375-b40574b0fba3",
-                    "url": "",
+                    "url": "https://sahibinden.com",
                     "date": {
                         "end": "2020-11-30T21:00:00.000Z",
                         "start": "2019-08-31T21:00:00.000Z"
@@ -86,7 +97,7 @@
                 },
                 {
                     "id": "f01a9ab3-b14e-482d-ba03-899728a425c7",
-                    "url": "",
+                    "url": "https://vngrs.com",
                     "date": {
                         "end": "2019-08-31T21:00:00.000Z",
                         "start": "2017-05-31T21:00:00.000Z"
@@ -213,24 +224,19 @@
             "items": [
                 {
                     "id": "94a28c3f-5f8c-4013-85ec-bc4328bf945a",
-                    "url": "https://github.com/makiftutuncu/e",
+                    "url": "https://github.com/makiftutuncu/effect",
                     "date": {
                         "end": "",
                         "start": ""
                     },
-                    "name": "e",
+                    "name": "Effect",
                     "summary": "",
                     "keywords": [
                         "Scala",
-                        "Kotlin",
-                        "Java",
-                        "circe",
-                        "play-json",
-                        "gson",
-                        "ZIO",
-                        "munit"
+                        "Functional Effect",
+                        "Error Handling"
                     ],
-                    "description": "Scala library for error handling"
+                    "description": "Functional effect library in Scala"
                 },
                 {
                     "id": "5e097794-530c-48cc-ad46-3ddcdcce3767",
