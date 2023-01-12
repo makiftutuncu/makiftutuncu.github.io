@@ -25,22 +25,22 @@
         },
         "profiles": [
             {
-                "id": "ffd1d1fe-edef-4f27-b530-7549a0e58d6c",
-                "url": "https://github.com/makiftutuncu",
                 "network": "GitHub",
-                "username": "makiftutuncu"
+                "username": "makiftutuncu",
+                "url": "https://github.com/makiftutuncu",
+                "id": "4ec01770-56b6-4712-a6e0-f12a503a8541"
             },
             {
-                "id": "a8770047-b763-448b-a847-641c30096304",
-                "url": "https://linkedin.com/in/makiftutuncu",
                 "network": "LinkedIn",
-                "username": "makiftutuncu"
+                "username": "makiftutuncu",
+                "url": "https://linkedin.com/in/makiftutuncu",
+                "id": "026c0683-7b4e-4f5f-88dd-a8dc0e9b6229"
             },
             {
-                "id": "a6393bfa-e6fa-4a47-af95-3483775ba0bf",
-                "url": "https://twitter.com/makiftutuncu",
                 "network": "Twitter",
-                "username": "makiftutuncu"
+                "username": "makiftutuncu",
+                "url": "https://twitter.com/makiftutuncu",
+                "id": "0986e2f3-34cd-441e-ae43-8c82cd816e01"
             }
         ],
         "birthdate": "1991-03-22T22:00:00.000Z"
@@ -58,9 +58,9 @@
                         "end": "",
                         "start": "2022-12-01T00:00:00.000Z"
                     },
-                    "name": "iO",
+                    "name": "Senior Software Engineer @ iO",
                     "summary": "Before joining a client project as a consultant, I acted as a developer advocate. I co-organized a workshop, wrote on company blog, attended recruitment interviews/reviews and worked on improving the hiring process.",
-                    "position": "Senior Software Engineer"
+                    "position": " "
                 },
                 {
                     "id": "9fd2e3ff-547f-4aea-9821-37742a86a93d",
@@ -69,9 +69,9 @@
                         "end": "2022-10-29T23:00:00.000Z",
                         "start": "2021-11-01T10:42:40.000Z"
                     },
-                    "name": "Scalac",
+                    "name": "Senior Software Engineer @ Scalac",
                     "summary": "I worked with Conduktor as a consultant. I migrated part of their legacy Java API to a new Scala service. It included an automated mechanism to check for correctness. Then I worked on admin features of Conduktor Platform, spanning multiple Conduktor products.",
-                    "position": "Senior Software Engineer"
+                    "position": " "
                 },
                 {
                     "id": "62f3e710-aef5-4726-bb20-69b93b009770",
@@ -80,9 +80,9 @@
                         "end": "2021-10-31T21:00:00.000Z",
                         "start": "2020-11-30T21:00:00.000Z"
                     },
-                    "name": "Numbrs",
+                    "name": "Software Engineer @ Numbrs",
                     "summary": "I worked in Personal Finance Management team. I was responsible for developing new features to Numbrs app backend.",
-                    "position": "Software Engineer"
+                    "position": " "
                 },
                 {
                     "id": "b1060973-1d02-4d1c-b375-b40574b0fba3",
@@ -91,9 +91,9 @@
                         "end": "2020-11-30T21:00:00.000Z",
                         "start": "2019-08-31T21:00:00.000Z"
                     },
-                    "name": "Sahibinden",
+                    "name": "Senior Software Engineer @ sahibinden.com",
                     "summary": "I worked in the search team. I usually dealt with search, promotions and categories domains. I also took the lead on automating the process of updating location and geo data.",
-                    "position": "Senior Software Engineer"
+                    "position": " "
                 },
                 {
                     "id": "f01a9ab3-b14e-482d-ba03-899728a425c7",
@@ -102,9 +102,9 @@
                         "end": "2019-08-31T21:00:00.000Z",
                         "start": "2017-05-31T21:00:00.000Z"
                     },
-                    "name": "VNGRS",
+                    "name": "Software Engineer @ VNGRS",
                     "summary": "I consulted in multiple projects. In MAF Properties team, I worked in the kick-off process for their latest product. In Beam team, I helped migrate and maintain a mobile payment system. In Socrata team, I helped design, develop and maintain multiple backend projects.",
-                    "position": "Software Engineer"
+                    "position": " "
                 },
                 {
                     "id": "b1277dc8-2c98-4a64-9e7d-119d43c7cafb",
@@ -113,9 +113,9 @@
                         "end": "2016-10-31T21:00:00.000Z",
                         "start": "2013-10-31T22:00:00.000Z"
                     },
-                    "name": "Linovi",
+                    "name": "Software Engineer @ Linovi",
                     "summary": "I started as part-time here. Then I joined Shazam team full-time. I had varying tasks from developing features, fixing bugs, writing automated tests to maintaining projects.",
-                    "position": "Software Engineer"
+                    "position": " "
                 },
                 {
                     "id": "9f232e3f-8e62-4510-847e-3f1785630d71",
@@ -124,9 +124,9 @@
                         "end": "2013-08-31T21:00:00.000Z",
                         "start": "2012-08-31T21:00:00.000Z"
                     },
-                    "name": "iDivino",
+                    "name": "Android Developer @ iDivino",
                     "summary": "I worked part-time on developing games for preschool children.",
-                    "position": "Android Developer"
+                    "position": " "
                 }
             ],
             "columns": 1,
@@ -426,18 +426,18 @@
             "type": "custom",
             "items": [
                 {
-                    "title": "Things I Learned Building a Functional Effect System",
-                    "subtitle": "Functional Scala 2022",
-                    "date": {
-                        "start": "",
-                        "end": ""
-                    },
+                    "id": "e89d87f2-6777-43f5-965a-2337f7a650ff",
                     "url": "https://youtu.be/ZNB2epqQhc8",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
                     "level": "",
-                    "levelNum": 0,
+                    "title": "Things I Learned Building a Functional Effect System",
                     "summary": "",
                     "keywords": [],
-                    "id": "e89d87f2-6777-43f5-965a-2337f7a650ff"
+                    "levelNum": 0,
+                    "subtitle": "Functional Scala 2022"
                 },
                 {
                     "id": "ba31a7ed-5d77-40b2-82f9-f4e6a26bcf51",
@@ -496,18 +496,18 @@
                     "subtitle": "Test Hive"
                 },
                 {
-                    "title": "Working Remotely From Turkey",
-                    "subtitle": "Interview with DevTech Community",
-                    "date": {
-                        "start": "",
-                        "end": ""
-                    },
+                    "id": "5c4dd463-befa-40d3-b5ee-13bc013bb63d",
                     "url": "https://youtu.be/VbvIIcR-JYg",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
                     "level": "",
-                    "levelNum": 0,
+                    "title": "Working Remotely From Turkey",
                     "summary": "",
                     "keywords": [],
-                    "id": "5c4dd463-befa-40d3-b5ee-13bc013bb63d"
+                    "levelNum": 0,
+                    "subtitle": "Interview with DevTech Community"
                 }
             ],
             "columns": 2,
@@ -530,7 +530,8 @@
         "layout": [
             [
                 [
-                    "work"
+                    "work",
+                    "education"
                 ],
                 [
                     "awards",
@@ -541,12 +542,11 @@
             [
                 [
                     "skills",
-                    "fc94cebd-969e-45a6-8815-cfa27e4c5cb2",
                     "projects",
-                    "education",
+                    "fc94cebd-969e-45a6-8815-cfa27e4c5cb2",
                     "languages",
-                    "volunteer",
-                    "certifications"
+                    "certifications",
+                    "volunteer"
                 ],
                 [
                     "publications"
