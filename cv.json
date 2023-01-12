@@ -13,14 +13,14 @@
             },
             "visible": true
         },
-        "summary": "I'm a senior software engineer focused mainly on backend. I have more than 9 years of professional experience in software development. I've conducted consulting, training and worked with companies around the world such as Shazam, Socrata, Beam/MAF, sahibinden, Numbrs, Scalac and Conduktor. I am proficient in Scala, Java, Kotlin using both object-oriented and functional programming. I have skills in CI/CD, testing, databases, cloud applications, microservices. I am a fan of open-source software.",
+        "summary": "I'm mainly focused on backend. I have more than 9 years of professional experience in software industry. I've worked with companies around the world and conducted consulting/training. I have extensive JVM knowledge and proficiency in Scala, Java, Kotlin using both object-oriented and functional programming. I have skills in CI/CD, testing, databases, cloud applications, micro-services. I am a fan of open-source software.",
         "website": "https://akif.dev",
-        "headline": "",
+        "headline": "Senior Software Engineer",
         "location": {
-            "city": "Istanbul",
+            "city": "Amsterdam",
             "region": "",
             "address": "",
-            "country": "Turkey",
+            "country": "Netherlands",
             "postalCode": ""
         },
         "profiles": [
@@ -52,15 +52,15 @@
             "type": "basic",
             "items": [
                 {
-                    "name": "iO",
-                    "position": "Senior Software Engineer",
-                    "date": {
-                        "start": "2022-12-01T00:00:00.000Z",
-                        "end": ""
-                    },
+                    "id": "cdd56286-dbf4-4e29-a6d8-09b273f62e6a",
                     "url": "https://iodigital.com",
-                    "summary": "Just started at this position",
-                    "id": "cdd56286-dbf4-4e29-a6d8-09b273f62e6a"
+                    "date": {
+                        "end": "",
+                        "start": "2022-12-01T00:00:00.000Z"
+                    },
+                    "name": "iO",
+                    "summary": "Before joining a client project as a consultant, I acted as a developer advocate. I co-organized a workshop, wrote on company blog, attended recruitment interviews/reviews and worked on improving the hiring process.",
+                    "position": "Senior Software Engineer"
                 },
                 {
                     "id": "9fd2e3ff-547f-4aea-9821-37742a86a93d",
@@ -70,7 +70,7 @@
                         "start": "2021-11-01T10:42:40.000Z"
                     },
                     "name": "Scalac",
-                    "summary": "I worked with Conduktor as a consultant. I migrated part of their legacy Java API to a new Scala service. It included an automated mechanism to check for correctness. I helped build user and organization management features handling multiple Conduktor products.",
+                    "summary": "I worked with Conduktor as a consultant. I migrated part of their legacy Java API to a new Scala service. It included an automated mechanism to check for correctness. Then I worked on admin features of Conduktor Platform, spanning multiple Conduktor products.",
                     "position": "Senior Software Engineer"
                 },
                 {
@@ -92,7 +92,7 @@
                         "start": "2019-08-31T21:00:00.000Z"
                     },
                     "name": "Sahibinden",
-                    "summary": "I worked in the search team. The domains I usually dealt with were search, promotions and categories. I also automated the process of updating location and geo data.",
+                    "summary": "I worked in the search team. I usually dealt with search, promotions and categories domains. I also took the lead on automating the process of updating location and geo data.",
                     "position": "Senior Software Engineer"
                 },
                 {
@@ -114,7 +114,7 @@
                         "start": "2013-10-31T22:00:00.000Z"
                     },
                     "name": "Linovi",
-                    "summary": "I started as a part-time here. Then joined Shazam team. I had varying tasks from developing features, fixing bugs, writing automated tests to maintaining projects.",
+                    "summary": "I started as part-time here. Then I joined Shazam team full-time. I had varying tasks from developing features, fixing bugs, writing automated tests to maintaining projects.",
                     "position": "Software Engineer"
                 },
                 {
@@ -219,7 +219,7 @@
         },
         "projects": {
             "id": "projects",
-            "name": "Projects",
+            "name": "Personal Projects",
             "type": "basic",
             "items": [
                 {
@@ -392,24 +392,7 @@
             "id": "publications",
             "name": "Articles",
             "type": "basic",
-            "items": [
-                {
-                    "id": "62bca297-80d8-435c-b3bd-3fe95d1455a9",
-                    "url": "http://makiftutuncu.wordpress.com",
-                    "date": "2015-12-31T22:00:00.000Z",
-                    "name": "Scala Blog",
-                    "summary": "",
-                    "publisher": "Wordpress"
-                },
-                {
-                    "id": "60608cf0-e54b-4b7b-aa37-f2caf590ed07",
-                    "url": "http://androidce.blogspot.com",
-                    "date": "2012-01-31T22:00:00.000Z",
-                    "name": "Android Blog",
-                    "summary": "",
-                    "publisher": "Blogspot"
-                }
-            ],
+            "items": [],
             "columns": 2,
             "visible": true
         },
@@ -439,9 +422,23 @@
             "visible": true
         },
         "fc94cebd-969e-45a6-8815-cfa27e4c5cb2": {
-            "name": "Talks",
+            "name": "Talks and Presentations",
             "type": "custom",
             "items": [
+                {
+                    "title": "Things I Learned Building a Functional Effect System",
+                    "subtitle": "Functional Scala 2022",
+                    "date": {
+                        "start": "",
+                        "end": ""
+                    },
+                    "url": "https://youtu.be/ZNB2epqQhc8",
+                    "level": "",
+                    "levelNum": 0,
+                    "summary": "",
+                    "keywords": [],
+                    "id": "e89d87f2-6777-43f5-965a-2337f7a650ff"
+                },
                 {
                     "id": "ba31a7ed-5d77-40b2-82f9-f4e6a26bcf51",
                     "url": "https://youtu.be/HAQZtTZae_Q",
@@ -497,6 +494,20 @@
                     "keywords": [],
                     "levelNum": 0,
                     "subtitle": "Test Hive"
+                },
+                {
+                    "title": "Working Remotely From Turkey",
+                    "subtitle": "Interview with DevTech Community",
+                    "date": {
+                        "start": "",
+                        "end": ""
+                    },
+                    "url": "https://youtu.be/VbvIIcR-JYg",
+                    "level": "",
+                    "levelNum": 0,
+                    "summary": "",
+                    "keywords": [],
+                    "id": "5c4dd463-befa-40d3-b5ee-13bc013bb63d"
                 }
             ],
             "columns": 2,
@@ -519,8 +530,7 @@
         "layout": [
             [
                 [
-                    "work",
-                    "projects"
+                    "work"
                 ],
                 [
                     "awards",
@@ -530,15 +540,17 @@
             ],
             [
                 [
-                    "languages",
                     "skills",
                     "fc94cebd-969e-45a6-8815-cfa27e4c5cb2",
-                    "publications",
-                    "volunteer",
+                    "projects",
                     "education",
+                    "languages",
+                    "volunteer",
                     "certifications"
                 ],
-                []
+                [
+                    "publications"
+                ]
             ]
         ],
         "locale": "en",
