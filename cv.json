@@ -13,7 +13,7 @@
             },
             "visible": true
         },
-        "summary": "I'm mainly focused on backend. I have more than 9 years of professional experience in software industry. I've worked with companies around the world and conducted consulting/training. I have extensive JVM knowledge and proficiency in Scala, Java, Kotlin using both object-oriented and functional programming. I have skills in CI/CD, testing, databases, cloud applications, micro-services. I am a fan of open-source software.",
+        "summary": "I'm a senior software engineer with over 9 years of professional experience in the software industry, focused on backend. I worked with companies globally, providing consulting and training services. My expertise lies in JVM technologies, Scala, Java, and Kotlin, and I'm skilled in both object-oriented and functional programming. I have a solid understanding of CI/CD, testing, databases, cloud applications, and microservices. I'm passionate about open-source software, I created several tools to help developers and I spoke at conferences/meetups. Outside of work, I enjoy traveling, cooking, and listening to rock/metal music.",
         "website": "https://akif.dev",
         "headline": "Senior Software Engineer",
         "location": {
@@ -25,22 +25,22 @@
         },
         "profiles": [
             {
-                "network": "GitHub",
-                "username": "makiftutuncu",
+                "id": "4ec01770-56b6-4712-a6e0-f12a503a8541",
                 "url": "https://github.com/makiftutuncu",
-                "id": "4ec01770-56b6-4712-a6e0-f12a503a8541"
+                "network": "GitHub",
+                "username": "makiftutuncu"
             },
             {
-                "network": "LinkedIn",
-                "username": "makiftutuncu",
+                "id": "026c0683-7b4e-4f5f-88dd-a8dc0e9b6229",
                 "url": "https://linkedin.com/in/makiftutuncu",
-                "id": "026c0683-7b4e-4f5f-88dd-a8dc0e9b6229"
+                "network": "LinkedIn",
+                "username": "makiftutuncu"
             },
             {
-                "network": "Twitter",
-                "username": "makiftutuncu",
+                "id": "0986e2f3-34cd-441e-ae43-8c82cd816e01",
                 "url": "https://twitter.com/makiftutuncu",
-                "id": "0986e2f3-34cd-441e-ae43-8c82cd816e01"
+                "network": "Twitter",
+                "username": "makiftutuncu"
             }
         ],
         "birthdate": "1991-03-22T22:00:00.000Z"
@@ -48,63 +48,63 @@
     "sections": {
         "work": {
             "id": "work",
-            "name": "Work Experience",
+            "name": "Recent Work Experience",
             "type": "basic",
             "items": [
                 {
                     "id": "cdd56286-dbf4-4e29-a6d8-09b273f62e6a",
-                    "url": "https://iodigital.com",
+                    "url": "",
                     "date": {
                         "end": "",
                         "start": "2022-12-01T00:00:00.000Z"
                     },
-                    "name": "Senior Software Engineer @ iO",
-                    "summary": "Before joining a client project as a consultant, I acted as a developer advocate. I co-organized a workshop, wrote on company blog, attended recruitment interviews/reviews and worked on improving the hiring process.",
-                    "position": " "
+                    "name": "1. iO - iodigital.com",
+                    "summary": "Before joining a client project as a consultant, acted as a developer advocate, co-organized workshops, wrote articles on company blog, attended recruitment interviews, performed code reviews and mentoring, worked on improving the hiring process, worked on open-source side projects\n\n`#docker #functional-programming #git #gradle #java #junit #kotlin #postgresql #reactive-programming #spring-boot`",
+                    "position": " Senior Software Engineer"
                 },
                 {
                     "id": "9fd2e3ff-547f-4aea-9821-37742a86a93d",
-                    "url": "https://scalac.io",
+                    "url": "",
                     "date": {
                         "end": "2022-10-29T23:00:00.000Z",
                         "start": "2021-11-01T10:42:40.000Z"
                     },
-                    "name": "Senior Software Engineer @ Scalac",
-                    "summary": "I worked with Conduktor as a consultant. I migrated part of their legacy Java API to a new Scala service. It included an automated mechanism to check for correctness. Then I worked on admin features of Conduktor Platform, spanning multiple Conduktor products.",
-                    "position": " "
+                    "name": "2. Scalac - scalac.io",
+                    "summary": "Worked with Conduktor as a consultant, migrated part of their legacy Java API to a new Scala service which included an automated mechanism to check for correctness, then worked on admin of Conduktor Platform, containing many Conduktor products\n\n`#akka #cats #circe #docker #functional-programming #git #google-cloud #http4s #java #junit #kafka #kanban #micronaut #postgresql #quill #sbt #scala #zio`",
+                    "position": " Senior Software Engineer"
                 },
                 {
                     "id": "62f3e710-aef5-4726-bb20-69b93b009770",
-                    "url": "https://www.numbrs.com",
+                    "url": "",
                     "date": {
                         "end": "2021-10-31T21:00:00.000Z",
                         "start": "2020-11-30T21:00:00.000Z"
                     },
-                    "name": "Software Engineer @ Numbrs",
-                    "summary": "I worked in Personal Finance Management team. I was responsible for developing new features to Numbrs app backend.",
-                    "position": " "
+                    "name": "3. Numbrs - numbrs.com",
+                    "summary": "Worked in Personal Finance Management team, responsible for developing new features to Numbrs app backend\n\n`#aws #cassandra #circe #couchbase #docker #functional-programming #git #go #gradle #java #junit #kafka #kubernetes #play-framework #postgresql #quill #reactive-programming #sbt #scala #scalatest #scrum #spring-boot`",
+                    "position": "Software Engineer"
                 },
                 {
                     "id": "b1060973-1d02-4d1c-b375-b40574b0fba3",
-                    "url": "https://sahibinden.com",
+                    "url": "",
                     "date": {
                         "end": "2020-11-30T21:00:00.000Z",
                         "start": "2019-08-31T21:00:00.000Z"
                     },
-                    "name": "Senior Software Engineer @ sahibinden.com",
-                    "summary": "I worked in the search team. I usually dealt with search, promotions and categories domains. I also took the lead on automating the process of updating location and geo data.",
-                    "position": " "
+                    "name": "4. sahibinden.com",
+                    "summary": "Worked in the search team on search, promotions and categories domains, also took the lead on automating the process of updating geo/location data\n\n`#cassandra #elasticsearch #git #java #junit #kafka #memcached #mongodb #mysql #scrum #spring-boot #spring-framework #zookeeper`",
+                    "position": "Senior Software Engineer"
                 },
                 {
                     "id": "f01a9ab3-b14e-482d-ba03-899728a425c7",
-                    "url": "https://vngrs.com",
+                    "url": "",
                     "date": {
                         "end": "2019-08-31T21:00:00.000Z",
                         "start": "2017-05-31T21:00:00.000Z"
                     },
-                    "name": "Software Engineer @ VNGRS",
-                    "summary": "I consulted in multiple projects. In MAF Properties team, I worked in the kick-off process for their latest product. In Beam team, I helped migrate and maintain a mobile payment system. In Socrata team, I helped design, develop and maintain multiple backend projects.",
-                    "position": " "
+                    "name": "5. VNGRS - vngrs.com",
+                    "summary": "Worked in the kick-off process for their latest product in MAF Properties team, helped migrate and maintain a mobile payment system in Beam team, helped design/develop and maintain multiple backend projects in Socrata team\n\n`#activemq #akka #aws #cats #circe #docker #dynamodb #functional-programming #git #http4s #java #junit #memcached #play-framework #postgresql #ruby-on-rails #sbt #scala #scalatest #scrum #spring-boot #zookeeper`",
+                    "position": " Software Engineer"
                 },
                 {
                     "id": "b1277dc8-2c98-4a64-9e7d-119d43c7cafb",
@@ -113,23 +113,12 @@
                         "end": "2016-10-31T21:00:00.000Z",
                         "start": "2013-10-31T22:00:00.000Z"
                     },
-                    "name": "Software Engineer @ Linovi",
-                    "summary": "I started as part-time here. Then I joined Shazam team full-time. I had varying tasks from developing features, fixing bugs, writing automated tests to maintaining projects.",
-                    "position": " "
-                },
-                {
-                    "id": "9f232e3f-8e62-4510-847e-3f1785630d71",
-                    "url": "",
-                    "date": {
-                        "end": "2013-08-31T21:00:00.000Z",
-                        "start": "2012-08-31T21:00:00.000Z"
-                    },
-                    "name": "Android Developer @ iDivino",
-                    "summary": "I worked part-time on developing games for preschool children.",
-                    "position": " "
+                    "name": "6. Linovi",
+                    "summary": "Started as part-time, then joined Shazam team full-time, had varying tasks from developing features, fixing bugs, writing automated tests to maintaining projects\n\n`#akka #aws #dynamodb #functional-programming #git #kanban #mysql #play-framework #redis #redshift #sbt #scala #specs2 #scrum`",
+                    "position": "Software Engineer"
                 }
             ],
-            "columns": 1,
+            "columns": 2,
             "visible": true
         },
         "awards": {
@@ -144,84 +133,27 @@
             "id": "skills",
             "name": "Skills",
             "type": "basic",
-            "items": [
-                {
-                    "id": "8344b4c9-f06b-444a-a11e-7701bd9cb31c",
-                    "name": "Frameworks/Libraries/Tools",
-                    "level": "",
-                    "keywords": [
-                        "Akka",
-                        "AWS",
-                        "cats",
-                        "circe",
-                        "Docker",
-                        "Elasticsearch",
-                        "git",
-                        "Gradle",
-                        "http4s",
-                        "JUnit",
-                        "Kafka",
-                        "Play Framework",
-                        "Quill",
-                        "SBT",
-                        "ScalaTest",
-                        "Spring Framework",
-                        "tapir",
-                        "ZIO"
-                    ],
-                    "levelNum": 0
-                },
-                {
-                    "id": "fbf0da24-6218-43ba-9d2f-61cdceb5f62e",
-                    "name": "Databases",
-                    "level": "",
-                    "keywords": [
-                        "Cassandra",
-                        "DynamoDB",
-                        "Firebase",
-                        "MongoDB",
-                        "MySQL",
-                        "PostgreSQL",
-                        "Redis"
-                    ],
-                    "levelNum": 0
-                },
-                {
-                    "id": "3c94bacd-ce01-4851-8792-a2014ad38e17",
-                    "name": "Progamming Languages",
-                    "level": "",
-                    "keywords": [
-                        "Go",
-                        "Java",
-                        "Kotlin",
-                        "Scala"
-                    ],
-                    "levelNum": 0
-                },
-                {
-                    "id": "f24db60a-6773-45cd-897f-537181650c93",
-                    "name": "Techniques",
-                    "level": "",
-                    "keywords": [
-                        "Agile",
-                        "CI/CD",
-                        "DDD",
-                        "Kanban",
-                        "Microservices",
-                        "SCRUM",
-                        "TDD"
-                    ],
-                    "levelNum": 0
-                }
-            ],
+            "items": [],
             "columns": 2,
-            "visible": true
+            "visible": false
         },
         "projects": {
             "id": "projects",
             "name": "Personal Projects",
             "type": "basic",
             "items": [
+                {
+                    "name": "spring-boot-crud",
+                    "description": "Opinionated, REST-ful and generic CRUD operations for Spring Boot applications",
+                    "date": {
+                        "start": "",
+                        "end": ""
+                    },
+                    "url": "https://github.com/makiftutuncu/spring-boot-crud",
+                    "summary": "`#kotlin #java #api #crud #spring-boot`",
+                    "keywords": [],
+                    "id": "c9e86f0c-7672-4dcc-ab7f-4c56d39775e4"
+                },
                 {
                     "id": "94a28c3f-5f8c-4013-85ec-bc4328bf945a",
                     "url": "https://github.com/makiftutuncu/effect",
@@ -230,53 +162,21 @@
                         "start": ""
                     },
                     "name": "Effect",
-                    "summary": "",
-                    "keywords": [
-                        "Scala",
-                        "Functional Effect",
-                        "Error Handling"
-                    ],
+                    "summary": "`#scala #error-handling #functional-effect`",
+                    "keywords": [],
                     "description": "Functional effect library in Scala"
                 },
                 {
-                    "id": "5e097794-530c-48cc-ad46-3ddcdcce3767",
-                    "url": "https://github.com/makiftutuncu/Muezzin",
+                    "name": "e",
+                    "description": "A zero-dependency micro library to deal with errors",
                     "date": {
-                        "end": "",
-                        "start": ""
+                        "start": "",
+                        "end": ""
                     },
-                    "name": "Muezzin",
-                    "summary": "",
-                    "keywords": [
-                        "Scala",
-                        "Java",
-                        "Play Framework",
-                        "PostgreSQL",
-                        "Anorm",
-                        "Akka"
-                    ],
-                    "description": "Android application and server"
-                },
-                {
-                    "id": "a015471c-1b7b-40cd-9a43-f2a2a28e49b2",
-                    "url": "https://github.com/makiftutuncu/bookstore",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "name": "Bookstore",
-                    "summary": "",
-                    "keywords": [
-                        "Scala",
-                        "Finch",
-                        "ScalaTest",
-                        "Postman",
-                        "Docker",
-                        "Flyway",
-                        "Doobie",
-                        "PostgreSQL"
-                    ],
-                    "description": "A project demonstrating automated testing on backend"
+                    "url": "https://github.com/makiftutuncu/e",
+                    "summary": "`#kotlin #java #scala #error-handling`",
+                    "keywords": [],
+                    "id": "7f02bbc4-f36c-47d7-a55a-b6e4f9dbbf78"
                 },
                 {
                     "id": "cebea956-58f2-439e-b1c2-d089d3a25298",
@@ -286,12 +186,33 @@
                         "start": ""
                     },
                     "name": "k-retry",
-                    "summary": "",
-                    "keywords": [
-                        "Kotlin",
-                        "JUnit"
-                    ],
+                    "summary": "`#kotlin #junit`",
+                    "keywords": [],
                     "description": "Naive retry implementation"
+                },
+                {
+                    "id": "a015471c-1b7b-40cd-9a43-f2a2a28e49b2",
+                    "url": "https://github.com/makiftutuncu/bookstore",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "name": "Bookstore",
+                    "summary": "`#scala #finch #scalatest #postman #docker #flyway #doobie #postgresql`",
+                    "keywords": [],
+                    "description": "A project demonstrating automated testing on backend"
+                },
+                {
+                    "id": "5e097794-530c-48cc-ad46-3ddcdcce3767",
+                    "url": "https://github.com/makiftutuncu/Muezzin",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "name": "Muezzin",
+                    "summary": "`#scala #java #play-framework #postgresql #anorm #akka`",
+                    "keywords": [],
+                    "description": "Android application and server"
                 }
             ],
             "columns": 2,
@@ -394,7 +315,7 @@
             "type": "basic",
             "items": [],
             "columns": 2,
-            "visible": true
+            "visible": false
         },
         "certifications": {
             "id": "certifications",
@@ -516,7 +437,7 @@
     },
     "metadata": {
         "css": {
-            "value": "/* Enter custom CSS here */\n\n* {\n    text-align: justify;\n}\n\n.border-b {\n    border-bottom-width: 0;\n}\n\nh4.uppercase {\n    font-size: large;\n    margin-bottom: 12px;\n    padding-bottom: 6px;\n    border-bottom-width: 1px;\n}",
+            "value": "/* Enter custom CSS here */\n\n* {\n    text-align: justify;\n}\n\nh4.uppercase {\n    font-size: larger;\n}\n\ncode {\n    font-size: x-small;\n    background-color: #EEE;\n}",
             "visible": true
         },
         "date": {
@@ -530,10 +451,10 @@
         "layout": [
             [
                 [
-                    "work",
-                    "education"
+                    "work"
                 ],
                 [
+                    "skills",
                     "awards",
                     "interests",
                     "references"
@@ -541,12 +462,12 @@
             ],
             [
                 [
-                    "skills",
-                    "projects",
                     "fc94cebd-969e-45a6-8815-cfa27e4c5cb2",
+                    "projects",
+                    "education",
                     "languages",
-                    "certifications",
-                    "volunteer"
+                    "volunteer",
+                    "certifications"
                 ],
                 [
                     "publications"
