@@ -4,7 +4,7 @@
         "email": "mat@akif.dev",
         "phone": "",
         "photo": {
-            "url": "https://cdn.rxresu.me/uploads/71451/69131/1660815121832.jpg",
+            "url": "https://cdn.rxresu.me/uploads/71451/69131/1685434269646.jpg",
             "filters": {
                 "size": 128,
                 "shape": "circle",
@@ -59,7 +59,7 @@
                         "start": "2022-12-01T00:00:00.000Z"
                     },
                     "name": "1. iO - iodigital.com",
-                    "summary": "Before joining a client project as a consultant, acted as a developer advocate, co-organized workshops, wrote articles on company blog, attended recruitment interviews, performed code reviews and mentoring, worked on improving the hiring process, worked on open-source side projects\n\n`#docker #functional-programming #git #gradle #java #junit #kotlin #postgresql #reactive-programming #spring-boot`",
+                    "summary": "Co-organized workshops, wrote articles on company blog, attended recruitment interviews, performed code reviews and mentoring, worked on improving the hiring process, worked on open-source side projects as a tech-lead at iO; currently working at Rabobank, developing an internal functional documentation portal\n\n`#azure #docker #functional-programming #graphql #git #gradle #hazelcast #java #junit #kotlin #postgresql #rabbitmq #reactive-programming #spring-boot`",
                     "position": " Senior Software Engineer"
                 },
                 {
@@ -103,7 +103,7 @@
                         "start": "2017-05-31T21:00:00.000Z"
                     },
                     "name": "5. VNGRS - vngrs.com",
-                    "summary": "Worked in the kick-off process for their latest product in MAF Properties team, helped migrate and maintain a mobile payment system in Beam team, helped design/develop and maintain multiple backend projects in Socrata team\n\n`#activemq #akka #aws #cats #circe #docker #dynamodb #functional-programming #git #http4s #java #junit #memcached #play-framework #postgresql #ruby-on-rails #sbt #scala #scalatest #scrum #spring-boot #zookeeper`",
+                    "summary": "Worked in the kick-off process for their latest product in MAF Properties team; helped migrate and maintain a mobile payment system in Beam team; helped design/develop and maintain multiple backend projects in Socrata team\n\n`#activemq #akka #aws-ec2 #aws-rds #aws-s3 #cats #circe #docker #dynamodb #elastic-beanstalk #functional-programming #git #http4s #java #junit #memcached #play-framework #postgresql #ruby-on-rails #sbt #scala #scalatest #scrum #spring-boot #zookeeper`",
                     "position": " Software Engineer"
                 },
                 {
@@ -114,7 +114,7 @@
                         "start": "2013-10-31T22:00:00.000Z"
                     },
                     "name": "6. Linovi",
-                    "summary": "Started as part-time, then joined Shazam team full-time, had varying tasks from developing features, fixing bugs, writing automated tests to maintaining projects\n\n`#akka #aws #dynamodb #functional-programming #git #kanban #mysql #play-framework #redis #redshift #sbt #scala #specs2 #scrum`",
+                    "summary": "Started as part-time, then joined Shazam team full-time, had varying tasks from developing features, fixing bugs, writing automated tests to maintaining projects\n\n`#akka #aws-ec2 #aws-rds #aws-s3 #aws-sqs #aws-swf #aws-ses #dynamodb #functional-programming #git #kanban #mysql #play-framework #redis #redshift #sbt #scala #specs2 #scrum`",
                     "position": "Software Engineer"
                 }
             ],
@@ -143,16 +143,16 @@
             "type": "basic",
             "items": [
                 {
-                    "name": "spring-boot-crud",
-                    "description": "Opinionated, REST-ful and generic CRUD operations for Spring Boot applications",
-                    "date": {
-                        "start": "",
-                        "end": ""
-                    },
+                    "id": "c9e86f0c-7672-4dcc-ab7f-4c56d39775e4",
                     "url": "https://github.com/makiftutuncu/spring-boot-crud",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "name": "spring-boot-crud",
                     "summary": "`#kotlin #java #api #crud #spring-boot`",
                     "keywords": [],
-                    "id": "c9e86f0c-7672-4dcc-ab7f-4c56d39775e4"
+                    "description": "Opinionated, REST-ful and generic CRUD operations for Spring Boot applications"
                 },
                 {
                     "id": "94a28c3f-5f8c-4013-85ec-bc4328bf945a",
@@ -167,16 +167,16 @@
                     "description": "Functional effect library in Scala"
                 },
                 {
-                    "name": "e",
-                    "description": "A zero-dependency micro library to deal with errors",
-                    "date": {
-                        "start": "",
-                        "end": ""
-                    },
+                    "id": "7f02bbc4-f36c-47d7-a55a-b6e4f9dbbf78",
                     "url": "https://github.com/makiftutuncu/e",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "name": "e",
                     "summary": "`#kotlin #java #scala #error-handling`",
                     "keywords": [],
-                    "id": "7f02bbc4-f36c-47d7-a55a-b6e4f9dbbf78"
+                    "description": "A zero-dependency micro library to deal with errors"
                 },
                 {
                     "id": "cebea956-58f2-439e-b1c2-d089d3a25298",
@@ -475,6 +475,7 @@
             ]
         ],
         "locale": "en",
+        "language": "en",
         "template": "onyx",
         "typography": {
             "size": {
