@@ -1,492 +1,497 @@
 {
-    "basics": {
-        "name": "Mehmet Akif Tütüncü",
-        "email": "mat@akif.dev",
-        "phone": "",
-        "photo": {
-            "url": "https://cdn.rxresu.me/uploads/71451/69131/1685434269646.jpg",
-            "filters": {
-                "size": 128,
-                "shape": "circle",
-                "border": true,
-                "grayscale": false
-            },
-            "visible": true
-        },
-        "summary": "I'm a senior software engineer with over 9 years of professional experience in the software industry, focused on backend. I worked with companies globally, providing consulting and training services. My expertise lies in JVM technologies, Scala, Java, and Kotlin, and I'm skilled in both object-oriented and functional programming. I have a solid understanding of CI/CD, testing, databases, cloud applications, and microservices. I'm passionate about open-source software, I created several tools to help developers and I spoke at conferences/meetups. Outside of work, I enjoy traveling, cooking, and listening to rock/metal music.",
-        "website": "https://akif.dev",
-        "headline": "Senior Software Engineer",
-        "location": {
-            "city": "Amsterdam",
-            "region": "",
-            "address": "",
-            "country": "Netherlands",
-            "postalCode": ""
-        },
-        "profiles": [
-            {
-                "id": "4ec01770-56b6-4712-a6e0-f12a503a8541",
-                "url": "https://github.com/makiftutuncu",
-                "network": "GitHub",
-                "username": "makiftutuncu"
-            },
-            {
-                "id": "026c0683-7b4e-4f5f-88dd-a8dc0e9b6229",
-                "url": "https://linkedin.com/in/makiftutuncu",
-                "network": "LinkedIn",
-                "username": "makiftutuncu"
-            },
-            {
-                "id": "0986e2f3-34cd-441e-ae43-8c82cd816e01",
-                "url": "https://twitter.com/makiftutuncu",
-                "network": "Twitter",
-                "username": "makiftutuncu"
-            }
-        ],
-        "birthdate": "1991-03-22T22:00:00.000Z"
+  "basics": {
+    "name": "Mehmet Akif Tütüncü",
+    "headline": "Senior Software Engineer",
+    "email": "mat@akif.dev",
+    "phone": "",
+    "location": "Utrecht, Netherlands",
+    "url": {
+      "label": "",
+      "href": "https://akif.dev"
     },
-    "sections": {
-        "work": {
-            "id": "work",
-            "name": "Recent Work Experience",
-            "type": "basic",
-            "items": [
-                {
-                    "id": "cdd56286-dbf4-4e29-a6d8-09b273f62e6a",
-                    "url": "",
-                    "date": {
-                        "end": "",
-                        "start": "2022-12-01T00:00:00.000Z"
-                    },
-                    "name": "1. iO - iodigital.com",
-                    "summary": "Co-organized workshops, wrote articles on company blog, attended recruitment interviews, performed code reviews and mentoring, worked on improving the hiring process, worked on open-source side projects as a tech-lead at iO; currently working at Rabobank, developing an internal functional documentation portal\n\n`#azure #docker #functional-programming #graphql #git #gradle #hazelcast #java #junit #kotlin #postgresql #rabbitmq #reactive-programming #spring-boot`",
-                    "position": " Senior Software Engineer"
-                },
-                {
-                    "id": "9fd2e3ff-547f-4aea-9821-37742a86a93d",
-                    "url": "",
-                    "date": {
-                        "end": "2022-10-29T23:00:00.000Z",
-                        "start": "2021-11-01T10:42:40.000Z"
-                    },
-                    "name": "2. Scalac - scalac.io",
-                    "summary": "Worked with Conduktor as a consultant, migrated part of their legacy Java API to a new Scala service which included an automated mechanism to check for correctness, then worked on admin of Conduktor Platform, containing many Conduktor products\n\n`#akka #cats #circe #docker #functional-programming #git #google-cloud #http4s #java #junit #kafka #kanban #micronaut #postgresql #quill #sbt #scala #zio`",
-                    "position": " Senior Software Engineer"
-                },
-                {
-                    "id": "62f3e710-aef5-4726-bb20-69b93b009770",
-                    "url": "",
-                    "date": {
-                        "end": "2021-10-31T21:00:00.000Z",
-                        "start": "2020-11-30T21:00:00.000Z"
-                    },
-                    "name": "3. Numbrs - numbrs.com",
-                    "summary": "Worked in Personal Finance Management team, responsible for developing new features to Numbrs app backend\n\n`#aws #cassandra #circe #couchbase #docker #functional-programming #git #go #gradle #java #junit #kafka #kubernetes #play-framework #postgresql #quill #reactive-programming #sbt #scala #scalatest #scrum #spring-boot`",
-                    "position": "Software Engineer"
-                },
-                {
-                    "id": "b1060973-1d02-4d1c-b375-b40574b0fba3",
-                    "url": "",
-                    "date": {
-                        "end": "2020-11-30T21:00:00.000Z",
-                        "start": "2019-08-31T21:00:00.000Z"
-                    },
-                    "name": "4. sahibinden.com",
-                    "summary": "Worked in the search team on search, promotions and categories domains, also took the lead on automating the process of updating geo/location data\n\n`#cassandra #elasticsearch #git #java #junit #kafka #memcached #mongodb #mysql #scrum #spring-boot #spring-framework #zookeeper`",
-                    "position": "Senior Software Engineer"
-                },
-                {
-                    "id": "f01a9ab3-b14e-482d-ba03-899728a425c7",
-                    "url": "",
-                    "date": {
-                        "end": "2019-08-31T21:00:00.000Z",
-                        "start": "2017-05-31T21:00:00.000Z"
-                    },
-                    "name": "5. VNGRS - vngrs.com",
-                    "summary": "Worked in the kick-off process for their latest product in MAF Properties team; helped migrate and maintain a mobile payment system in Beam team; helped design/develop and maintain multiple backend projects in Socrata team\n\n`#activemq #akka #aws-ec2 #aws-rds #aws-s3 #cats #circe #docker #dynamodb #elastic-beanstalk #functional-programming #git #http4s #java #junit #memcached #play-framework #postgresql #ruby-on-rails #sbt #scala #scalatest #scrum #spring-boot #zookeeper`",
-                    "position": " Software Engineer"
-                },
-                {
-                    "id": "b1277dc8-2c98-4a64-9e7d-119d43c7cafb",
-                    "url": "",
-                    "date": {
-                        "end": "2016-10-31T21:00:00.000Z",
-                        "start": "2013-10-31T22:00:00.000Z"
-                    },
-                    "name": "6. Linovi",
-                    "summary": "Started as part-time, then joined Shazam team full-time, had varying tasks from developing features, fixing bugs, writing automated tests to maintaining projects\n\n`#akka #aws-ec2 #aws-rds #aws-s3 #aws-sqs #aws-swf #aws-ses #dynamodb #functional-programming #git #kanban #mysql #play-framework #redis #redshift #sbt #scala #specs2 #scrum`",
-                    "position": "Software Engineer"
-                }
-            ],
-            "columns": 2,
-            "visible": true
+    "customFields": [],
+    "picture": {
+      "url": "https://storage.rxresu.me/clp9fuk6v21wa9hunlxiojk0a/pictures/clp9ji5680zasqe000xdbwq7t.jpg",
+      "size": 100,
+      "aspectRatio": 1,
+      "borderRadius": 9999,
+      "effects": {
+        "hidden": false,
+        "border": true,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "SUMMARY",
+      "columns": 1,
+      "visible": true,
+      "id": "summary",
+      "content": "<p style=\"text-align: justify\">I'm a senior software engineer with over 10 years of professional experience in the software industry, mostly focused on backend. I worked with companies globally, providing consulting and training services. My expertise lies in JVM technologies, Scala, Java, and Kotlin, and I'm skilled in both object-oriented and functional programming. I have a solid understanding of CI/CD, testing, databases, cloud applications, and microservices. I'm passionate about open-source software, I created several tools to help developers and I spoke at conferences/meetups. Outside of work, I enjoy traveling, cooking, and listening to rock/metal music.</p>"
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "visible": false,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "CERTIFICATIONS",
+      "columns": 2,
+      "visible": true,
+      "id": "certifications",
+      "items": [
+        {
+          "id": "cuvqwgtr3ptwfzt112fjwm2o",
+          "visible": true,
+          "name": "Complete Guide to Elasticsearch",
+          "issuer": "Udemy",
+          "date": "Jun 2020",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
         },
-        "awards": {
-            "id": "awards",
-            "name": "Awards",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": false
-        },
-        "skills": {
-            "id": "skills",
-            "name": "Skills",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": false
-        },
-        "projects": {
-            "id": "projects",
-            "name": "Personal Projects",
-            "type": "basic",
-            "items": [
-                {
-                    "id": "c9e86f0c-7672-4dcc-ab7f-4c56d39775e4",
-                    "url": "https://github.com/makiftutuncu/spring-boot-crud",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "name": "spring-boot-crud",
-                    "summary": "`#kotlin #java #api #crud #spring-boot`",
-                    "keywords": [],
-                    "description": "Opinionated, REST-ful and generic CRUD operations for Spring Boot applications"
-                },
-                {
-                    "id": "94a28c3f-5f8c-4013-85ec-bc4328bf945a",
-                    "url": "https://github.com/makiftutuncu/effect",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "name": "Effect",
-                    "summary": "`#scala #error-handling #functional-effect`",
-                    "keywords": [],
-                    "description": "Functional effect library in Scala"
-                },
-                {
-                    "id": "7f02bbc4-f36c-47d7-a55a-b6e4f9dbbf78",
-                    "url": "https://github.com/makiftutuncu/e",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "name": "e",
-                    "summary": "`#kotlin #java #scala #error-handling`",
-                    "keywords": [],
-                    "description": "A zero-dependency micro library to deal with errors"
-                },
-                {
-                    "id": "cebea956-58f2-439e-b1c2-d089d3a25298",
-                    "url": "https://github.com/makiftutuncu/k-retry",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "name": "k-retry",
-                    "summary": "`#kotlin #junit`",
-                    "keywords": [],
-                    "description": "Naive retry implementation"
-                },
-                {
-                    "id": "a015471c-1b7b-40cd-9a43-f2a2a28e49b2",
-                    "url": "https://github.com/makiftutuncu/bookstore",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "name": "Bookstore",
-                    "summary": "`#scala #finch #scalatest #postman #docker #flyway #doobie #postgresql`",
-                    "keywords": [],
-                    "description": "A project demonstrating automated testing on backend"
-                },
-                {
-                    "id": "5e097794-530c-48cc-ad46-3ddcdcce3767",
-                    "url": "https://github.com/makiftutuncu/Muezzin",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "name": "Muezzin",
-                    "summary": "`#scala #java #play-framework #postgresql #anorm #akka`",
-                    "keywords": [],
-                    "description": "Android application and server"
-                }
-            ],
-            "columns": 2,
-            "visible": true
-        },
-        "education": {
-            "id": "education",
-            "name": "Education",
-            "type": "basic",
-            "items": [
-                {
-                    "id": "1fa551c9-3b14-4a31-8440-5112c1f76f1d",
-                    "url": "",
-                    "area": "Computer Engineering",
-                    "date": {
-                        "end": "2014-06-30T21:00:00.000Z",
-                        "start": "2009-08-31T21:00:00.000Z"
-                    },
-                    "score": "",
-                    "degree": "Bachelor's Degree",
-                    "courses": [],
-                    "summary": "Education in English, focused on software, started my career halfway through with internships and part-time positions",
-                    "institution": "Izmir Institute of Technology"
-                }
-            ],
-            "columns": 1,
-            "visible": true
-        },
-        "interests": {
-            "id": "interests",
-            "name": "Interests",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": false
-        },
-        "languages": {
-            "id": "languages",
-            "name": "Languages",
-            "type": "basic",
-            "items": [
-                {
-                    "id": "ca0d5193-14cb-4daa-b287-48d7bc125c51",
-                    "name": "Turkish",
-                    "level": "Native",
-                    "levelNum": 0
-                },
-                {
-                    "id": "29e9bca8-51d5-42c4-929b-c233db246ddc",
-                    "name": "English",
-                    "level": "Professional",
-                    "levelNum": 0
-                }
-            ],
-            "columns": 2,
-            "visible": true
-        },
-        "volunteer": {
-            "id": "volunteer",
-            "name": "Volunteer Experience",
-            "type": "basic",
-            "items": [
-                {
-                    "id": "a9742d33-0c10-46f3-b167-2aea28c53053",
-                    "url": "",
-                    "date": {
-                        "end": "2021-01-31T21:00:00.000Z",
-                        "start": "2020-12-31T21:00:00.000Z"
-                    },
-                    "summary": "I gave introduction to Scala and functional programming lectures.",
-                    "position": "Instructor",
-                    "organization": "Kodluyoruz"
-                },
-                {
-                    "id": "ea92b639-1bc8-4d8d-bd6f-511534f2d8fc",
-                    "url": "",
-                    "date": {
-                        "end": "2013-04-30T21:00:00.000Z",
-                        "start": "2013-01-31T22:00:00.000Z"
-                    },
-                    "summary": "I gave Android lectures in student club at my university.",
-                    "position": "Instructor",
-                    "organization": "Izmir Institute of Technology"
-                }
-            ],
-            "columns": 2,
-            "visible": true
-        },
-        "references": {
-            "id": "references",
-            "name": "References",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": false
-        },
-        "publications": {
-            "id": "publications",
-            "name": "Articles",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": false
-        },
-        "certifications": {
-            "id": "certifications",
-            "name": "Certifications",
-            "type": "basic",
-            "items": [
-                {
-                    "id": "eb1bcbfe-9f28-4a40-83ae-58ead0a0974f",
-                    "url": "",
-                    "date": "2020-06-30T21:00:00.000Z",
-                    "name": "Complete Guide to Elasticsearch",
-                    "issuer": "Udemy",
-                    "summary": ""
-                },
-                {
-                    "id": "76009100-6c43-4db8-b314-6a9e2cfe86b2",
-                    "url": "",
-                    "date": "2018-05-31T21:00:00.000Z",
-                    "name": "AWS Certified Solutions Architect - Associate",
-                    "issuer": "Amazon",
-                    "summary": ""
-                }
-            ],
-            "columns": 2,
-            "visible": true
-        },
-        "fc94cebd-969e-45a6-8815-cfa27e4c5cb2": {
-            "name": "Talks and Presentations",
-            "type": "custom",
-            "items": [
-                {
-                    "id": "e89d87f2-6777-43f5-965a-2337f7a650ff",
-                    "url": "https://youtu.be/ZNB2epqQhc8",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "level": "",
-                    "title": "Things I Learned Building a Functional Effect System",
-                    "summary": "",
-                    "keywords": [],
-                    "levelNum": 0,
-                    "subtitle": "Functional Scala 2022"
-                },
-                {
-                    "id": "ba31a7ed-5d77-40b2-82f9-f4e6a26bcf51",
-                    "url": "https://youtu.be/HAQZtTZae_Q",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "level": "",
-                    "title": "Dealing with Errors on JVM with e",
-                    "summary": "",
-                    "keywords": [],
-                    "levelNum": 0,
-                    "subtitle": "ScalaUA 2020"
-                },
-                {
-                    "id": "c6e1ef36-2b6b-4f16-935c-77f4d516f7e6",
-                    "url": "https://github.com/makiftutuncu/kotlin-for-backends",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "level": "",
-                    "title": "Kotlin for Backends",
-                    "summary": "",
-                    "keywords": [],
-                    "levelNum": 0,
-                    "subtitle": "sahibinden.com D2D"
-                },
-                {
-                    "id": "744c544f-454d-4b6e-9f46-f7fdd5bbaa82",
-                    "url": "https://youtu.be/jPiM9uBHpWI",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "level": "",
-                    "title": "Typeclass 101",
-                    "summary": "",
-                    "keywords": [],
-                    "levelNum": 0,
-                    "subtitle": "VNGRS Lightning Talks"
-                },
-                {
-                    "id": "9015217e-b036-4b6b-81e4-3d0e28de625c",
-                    "url": "https://youtu.be/QnK8pyGUOac",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "level": "",
-                    "title": "Testing Web Backends With Scala",
-                    "summary": "",
-                    "keywords": [],
-                    "levelNum": 0,
-                    "subtitle": "Test Hive"
-                },
-                {
-                    "id": "5c4dd463-befa-40d3-b5ee-13bc013bb63d",
-                    "url": "https://youtu.be/VbvIIcR-JYg",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "level": "",
-                    "title": "Working Remotely From Turkey",
-                    "summary": "",
-                    "keywords": [],
-                    "levelNum": 0,
-                    "subtitle": "Interview with DevTech Community"
-                }
-            ],
-            "columns": 2,
-            "visible": true
+        {
+          "id": "rwwn42u1lxi9yyeos1pbdzqj",
+          "visible": true,
+          "name": "AWS Certified Solutions Architect - Associate",
+          "issuer": "Amazon",
+          "date": "May 2018",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
         }
+      ]
     },
-    "metadata": {
-        "css": {
-            "value": "/* Enter custom CSS here */\n\n* {\n    text-align: justify;\n}\n\nh4.uppercase {\n    font-size: larger;\n}\n\ncode {\n    font-size: x-small;\n    background-color: #EEE;\n}",
-            "visible": true
-        },
-        "date": {
-            "format": "MMM YYYY"
-        },
-        "theme": {
-            "text": "#000000",
-            "primary": "#222222",
-            "background": "#ffffff"
-        },
-        "layout": [
-            [
-                [
-                    "work"
-                ],
-                [
-                    "skills",
-                    "awards",
-                    "interests",
-                    "references"
-                ]
-            ],
-            [
-                [
-                    "fc94cebd-969e-45a6-8815-cfa27e4c5cb2",
-                    "projects",
-                    "education",
-                    "languages",
-                    "volunteer",
-                    "certifications"
-                ],
-                [
-                    "publications"
-                ]
-            ]
-        ],
-        "locale": "en",
-        "language": "en",
-        "template": "onyx",
-        "typography": {
-            "size": {
-                "body": 14,
-                "heading": 36
-            },
-            "family": {
-                "body": "Quicksand",
-                "heading": "Quicksand"
-            }
+    "education": {
+      "name": "EDUCATION",
+      "columns": 1,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "nuto6rn01x06c1ukgobn5tvt",
+          "visible": true,
+          "institution": "Izmir Institute of Technology",
+          "studyType": "Bachelor's Degree",
+          "area": "Computer Engineering",
+          "score": "",
+          "date": "Sep 2009 to Jun 2014",
+          "summary": "<p>Education in English, focused on software, started my career halfway through with internships and part-time positions</p>",
+          "url": {
+            "label": "",
+            "href": "https://en.iyte.edu.tr"
+          }
         }
+      ]
     },
-    "public": false
+    "experience": {
+      "name": "WORK EXPERIENCE",
+      "columns": 2,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "m6wl6fbfpuw7b5j89n205i3m",
+          "visible": true,
+          "company": "iO - iodigital.com",
+          "position": "Senior Software Engineer",
+          "location": "Utrecht",
+          "date": "Dec 2022 to Present",
+          "summary": "<p style=\"text-align: justify\">I'm currently working at Rabobank as a consultant, developing an internal functional documentation portal.</p><p style=\"text-align: justify\">Also as a tech-lead at iO, I co-organized workshops, wrote articles on company blog, attended recruitment interviews, performed code reviews and mentoring, worked on improving the hiring process, worked on open-source side projects.</p><p style=\"text-align: justify\"> <code>azure</code> <code>docker</code> <code>functional-programming</code> <code>graphql</code> <code>git</code> <code>gradle</code> <code>hazelcast</code> <code>java</code> <code>junit</code> <code>kotlin</code> <code>postgresql</code> <code>reactive-programming</code> <code>spring-boot</code></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "um83je73nv2mos835zahf7ci",
+          "visible": true,
+          "company": "Scalac - scalac.io",
+          "position": " Senior Software Engineer",
+          "location": "İstanbul (Remote)",
+          "date": "Nov 2021 to Oct 2022",
+          "summary": "<p style=\"text-align: justify\">I worked with Conduktor as a consultant, migrated part of their legacy Java API to a new Scala service which included an automated mechanism to check for correctness, then worked on admin of Conduktor Platform, containing many Conduktor products.</p><p style=\"text-align: justify\"><code>akka</code> <code>cats</code> <code>circe</code> <code>docker</code> <code>functional-programming</code> <code>git</code> <code>google-cloud</code> <code>http4s</code> <code>java</code> <code>junit</code> <code>kafka</code> <code>kanban</code> <code>micronaut</code> <code>postgresql</code> <code>quill</code> <code>sbt</code> <code>scala</code> <code>zio</code></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "gf20knpnlcihaunjxg0i7q5w",
+          "visible": true,
+          "company": "Numbrs - numbrs.com",
+          "position": "Software Engineer",
+          "location": "İstanbul (Remote)",
+          "date": "Nov 2020 to Oct 2021",
+          "summary": "<p style=\"text-align: justify\">I worked in Personal Finance Management team, responsible for developing new features to Numbrs app backend.</p><p style=\"text-align: justify\"><code>aws</code> <code>cassandra</code>  <code>circe</code>  <code>couchbase</code>  <code>docker</code>  <code>functional-programming</code>  <code>git</code> <code>go</code> <code>gradle</code> <code>java</code> <code>junit</code> <code>kafka</code> <code>kubernetes</code> <code>play-framework</code> <code>postgresql</code> <code>quill</code> <code>reactive-programming</code> <code>sbt</code> <code>scala</code> <code>scalatest</code> <code>scrum</code> <code>spring-boot</code></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "l5fvqomiss5j86czl7bdgou8",
+          "visible": true,
+          "company": "sahibinden.com",
+          "position": "Senior Software Engineer",
+          "location": "İstanbul (Hybrid)",
+          "date": "Aug 2019 to Nov 2020",
+          "summary": "<p style=\"text-align: justify\">I worked in the search team on search, promotions and categories domains, also took the lead on automating the process of updating geo/location data.</p><p style=\"text-align: justify\"><code>cassandra</code> <code>elasticsearch</code> <code>git</code> <code>java</code> <code>junit</code> <code>kafka</code> <code>memcached</code> <code>mongodb</code> <code>mysql</code> <code>scrum</code> <code>spring-boot</code> <code>spring-framework</code> <code>zookeeper</code></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "w92mk1lrbkh42uqyk1w5huq3",
+          "visible": true,
+          "company": "VNGRS - vngrs.com",
+          "position": " Software Engineer",
+          "location": "İstanbul",
+          "date": "Jun 2017 to Sep 2019",
+          "summary": "<p style=\"text-align: justify\">I worked in the kick-off process for their latest product in MAF Properties team; helped migrate and maintain a mobile payment system in Beam team; helped design/develop and maintain multiple backend projects in Socrata team.</p><p style=\"text-align: justify\"><code>activemq</code> <code>akka</code> <code>aws-ec2</code> <code>aws-rds</code> <code>aws-s3</code> <code>cats</code> <code>circe</code> <code>docker</code> <code>dynamodb</code> <code>elastic-beanstalk</code> <code>functional-programming</code> <code>git</code> <code>http4s</code> <code>java</code> <code>junit</code> <code>memcached</code> <code>play-framework</code> <code>postgresql</code> <code>ruby-on-rails</code> <code>sbt</code> <code>scala</code> <code>scalatest</code> <code>scrum</code> <code>spring-boot</code> <code>zookeeper</code></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "u5um36sgk78ebplmrhfyv5jh",
+          "visible": true,
+          "company": "Linovi",
+          "position": "Software Engineer",
+          "location": "İzmir",
+          "date": "Oct 2013 to Oct 2016",
+          "summary": "<p style=\"text-align: justify\">I started as part-time, then joined Shazam team full-time, had varying tasks from developing features, fixing bugs, writing automated tests to maintaining projects.</p><p style=\"text-align: justify\"><code>akka</code> <code>aws-ec2</code> <code>aws-rds</code> <code>aws-s3</code> <code>aws-sqs</code> <code>aws-swf</code> <code>aws-ses</code> <code>dynamodb</code> <code>functional-programming</code> <code>git</code> <code>kanban</code> <code>mysql</code> <code>play-framework</code> <code>redis</code> <code>redshift</code> <code>sbt</code> <code>scala</code> <code>specs2</code> <code>scrum</code></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "volunteer": {
+      "name": "VOLUNTEER EXPERIENCE",
+      "columns": 2,
+      "visible": true,
+      "id": "volunteer",
+      "items": [
+        {
+          "id": "zptigxscvsb6uy8m7tdkglbf",
+          "visible": true,
+          "organization": "Kodluyoruz",
+          "position": "Instructor",
+          "location": "İstanbul (Remote)",
+          "date": "Dec 2020 to Jan 2021",
+          "summary": "<p style=\"text-align: justify\">I gave introduction to Scala and functional programming lectures.</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "o0mvmz7aftmriveu19g1idxq",
+          "visible": true,
+          "organization": "Izmir Institute of Technology",
+          "position": "Instructor",
+          "location": "İzmir",
+          "date": "Jan 2013 to Apr 2013",
+          "summary": "<p style=\"text-align: justify\">I gave Android lectures in student club at my university.</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "interests": {
+      "name": "INTERESTS",
+      "columns": 5,
+      "visible": true,
+      "id": "interests",
+      "items": [
+        {
+          "id": "ot065hjvdx1u0d1wwx403boc",
+          "visible": true,
+          "name": "Traveling",
+          "keywords": []
+        },
+        {
+          "id": "wriac4mtbnq1mmnaqmvgj1z3",
+          "visible": true,
+          "name": "Cooking",
+          "keywords": []
+        },
+        {
+          "id": "k7fp2rem8je5p8c7tfcotzg9",
+          "visible": true,
+          "name": "Music/Guitar",
+          "keywords": []
+        },
+        {
+          "id": "xh8is1te6tqyvzcqo60tddye",
+          "visible": true,
+          "name": "Public Speaking",
+          "keywords": []
+        },
+        {
+          "id": "ticplrhueg9fqn0in5ll5bqm",
+          "visible": true,
+          "name": "Teaching",
+          "keywords": []
+        }
+      ]
+    },
+    "languages": {
+      "name": "LANGUAGES",
+      "columns": 2,
+      "visible": true,
+      "id": "languages",
+      "items": [
+        {
+          "id": "sgmx08nowyybnr7l9m4povix",
+          "visible": true,
+          "name": "Turkish",
+          "description": "Native",
+          "level": 0
+        },
+        {
+          "id": "nx60z21pexf0m8d4c10eiqp4",
+          "visible": true,
+          "name": "English",
+          "description": "Professional",
+          "level": 0
+        }
+      ]
+    },
+    "profiles": {
+      "name": "PROFILES",
+      "columns": 1,
+      "visible": true,
+      "id": "profiles",
+      "items": [
+        {
+          "id": "kdjlk43uk2mbcq6d3us128zi",
+          "visible": true,
+          "network": "GitHub",
+          "username": "makiftutuncu",
+          "icon": "github",
+          "url": {
+            "label": "",
+            "href": "https://github.com/makiftutuncu"
+          }
+        },
+        {
+          "id": "c133jff9bdxcjpr196hcntrr",
+          "visible": true,
+          "network": "LinkedIn",
+          "username": "makiftutuncu",
+          "icon": "linkedin",
+          "url": {
+            "label": "",
+            "href": "https://linkedin.com/in/makiftutuncu"
+          }
+        },
+        {
+          "id": "d647uiyhblvj2wbzgiw5dq3g",
+          "visible": true,
+          "network": "Twitter",
+          "username": "makiftutuncu",
+          "icon": "x",
+          "url": {
+            "label": "",
+            "href": "https://twitter.com/makiftutuncu"
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "PERSONAL PROJECTS",
+      "columns": 2,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "pqv91n8wgzgtgp17b93850a2",
+          "visible": true,
+          "name": "Periodik",
+          "description": "Read-only property delegate that can provide a value refreshed periodically",
+          "date": "",
+          "summary": "<p><code>kotlin</code> <code>library</code> <code>delegated-property</code></p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://github.com/makiftutuncu/periodik"
+          }
+        },
+        {
+          "id": "q8v1oakam0xzchyy7zi0moob",
+          "visible": true,
+          "name": "spring-boot-crud",
+          "description": "Opinionated, REST-ful and generic CRUD operations for Spring Boot applications",
+          "date": "",
+          "summary": "<p style=\"text-align: justify\"><code>kotlin</code> <code>java</code> <code>api</code> <code>crud</code> <code>spring-boot</code></p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://github.com/makiftutuncu/spring-boot-crud"
+          }
+        },
+        {
+          "id": "k3se7xbnjrm4bggqmfhwf8p3",
+          "visible": true,
+          "name": "Effect",
+          "description": "Functional effect library in Scala",
+          "date": "",
+          "summary": "<p style=\"text-align: justify\"><code>scala</code> <code>error-handling</code> <code>functional-effect</code></p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://github.com/makiftutuncu/effect"
+          }
+        },
+        {
+          "id": "vcsaxb3hlc8npg9345it4m1c",
+          "visible": true,
+          "name": "e",
+          "description": "A zero-dependency micro library to deal with errors",
+          "date": "",
+          "summary": "<p style=\"text-align: justify\"><code>kotlin</code> <code>java</code> <code>scala</code> <code>error-handling</code></p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://github.com/makiftutuncu/e"
+          }
+        },
+        {
+          "id": "yiatmuyjylvdjcmmpp4qe3pp",
+          "visible": true,
+          "name": "Bookstore",
+          "description": "A project demonstrating automated testing on backend",
+          "date": "",
+          "summary": "<p style=\"text-align: justify\"><code>scala</code> <code>finch</code> <code>scalatest</code> <code>postman</code> <code>docker</code> <code>flyway</code> <code>doobie</code> <code>postgresql</code></p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://github.com/makiftutuncu/bookstore"
+          }
+        },
+        {
+          "id": "bw4m91qyujfo8qrssb1dofcz",
+          "visible": true,
+          "name": "Muezzin",
+          "description": "Android application and server",
+          "date": "",
+          "summary": "<p style=\"text-align: justify\"><code>scala</code> <code>java</code> <code>play-framework</code> <code>postgresql</code> <code>anorm</code> <code>akka</code></p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://github.com/makiftutuncu/Muezzin"
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "TALKS & PRESENTATIONS",
+      "columns": 1,
+      "visible": true,
+      "id": "publications",
+      "items": [
+        {
+          "id": "zx8qrz9cwmseqwmwcs9ttv0l",
+          "visible": true,
+          "name": "YouTube Playlist",
+          "publisher": "",
+          "date": "",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": "https://tinyurl.com/makiftutuncu-talks"
+          }
+        }
+      ]
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "visible": true,
+      "id": "references",
+      "items": []
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "visible": false,
+      "id": "skills",
+      "items": []
+    },
+    "custom": {}
+  },
+  "metadata": {
+    "template": "onyx",
+    "layout": [
+      [
+        [
+          "profiles",
+          "summary",
+          "experience",
+          "references"
+        ],
+        [
+          "skills",
+          "awards"
+        ]
+      ],
+      [
+        [
+          "projects",
+          "education",
+          "languages",
+          "volunteer",
+          "certifications",
+          "interests",
+          "publications"
+        ],
+        []
+      ]
+    ],
+    "css": {
+      "value": ".section {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 18,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#0284c7"
+    },
+    "typography": {
+      "font": {
+        "family": "Merriweather",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ],
+        "size": 14
+      },
+      "lineHeight": 1.4,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": ""
+  }
 }
