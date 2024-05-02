@@ -281,7 +281,7 @@
           "id": "kdjlk43uk2mbcq6d3us128zi",
           "visible": true,
           "network": "GitHub",
-          "username": "makiftutuncu",
+          "username": "github.com/makiftutuncu",
           "icon": "github",
           "url": {
             "label": "",
@@ -292,7 +292,7 @@
           "id": "c133jff9bdxcjpr196hcntrr",
           "visible": true,
           "network": "LinkedIn",
-          "username": "makiftutuncu",
+          "username": "linkedin.com/in/makiftutuncu",
           "icon": "linkedin",
           "url": {
             "label": "",
@@ -302,12 +302,12 @@
         {
           "id": "d647uiyhblvj2wbzgiw5dq3g",
           "visible": true,
-          "network": "Twitter",
-          "username": "makiftutuncu",
+          "network": "X",
+          "username": "x.com/makiftutuncu",
           "icon": "x",
           "url": {
             "label": "",
-            "href": "https://twitter.com/makiftutuncu"
+            "href": "https://x.com/makiftutuncu"
           }
         }
       ]
