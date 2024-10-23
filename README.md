@@ -8,11 +8,7 @@ It's a very basic static page written in HTML + CSS.
 * Font is `Source Code Pro` from [Google Fonts](https://fonts.google.com).
 * All icons are vectors from [Simple Icons](https://simpleicons.org).
 * Normalizing CSS is done with [normalize.css](https://github.com/necolas/normalize.css).
-* CV is generated and rendered as PDF with [rxresu.me](https://rxresu.me).
-
-## Contributing
-
-All contributions are welcome. Please feel free to send a pull request. Thank you.
+* CV is made using [Canva](https://www.canva.com).
 
 ## License
 
