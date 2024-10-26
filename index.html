@@ -1,121 +1,142 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Personal Website of Mehmet Akif Tütüncü">
-  <meta name="author" content="Mehmet Akif Tütüncü">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mehmet Akif Tütüncü</title>
-  <link href="css/main.css" rel="stylesheet">
-  <link rel="shortcut icon" type="image/png" href="https://gravatar.com/avatar/7874b1a2b3af81d12643f8b6d9c828f5?s=32" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehmet Akif Tütüncü</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!-- Source Code Pro font -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      * {
+        font-family: 'Source Code Pro', monospace;
+        }
+    </style>
 </head>
+<body>
+    <div class="w-full h-full container mx-auto px-4">
+        <div class="flex flex-col lg:flex-row mt-8 md:mt-24">
+            <!-- Photo Section -->
+            <div class="flex justify-center md:mr-2">
+                <img src="https://gravatar.com/avatar/7874b1a2b3af81d12643f8b6d9c828f5?s=540" 
+                     class="lg:w-[740px] lg:h-[440px] 2xl:w-[660px] 2xl:h-[520px] rounded-[50%]"
+                     alt="Profile Photo">
+            </div>
 
-<body class="page">
-  <div class="content">
-    <div class="photo">
-      <img src="https://gravatar.com/avatar/7874b1a2b3af81d12643f8b6d9c828f5?s=540" />
-    </div>
-    <div class="text">
-      <div class="header">
-        <h1>Mehmet Akif Tütüncü</h1>
+            <!-- Text Content Section -->
+            <div class="flex flex-col self-center md:ml-2 mx-2 md:mx-8 mt-8 lg:mt-0">
+                <!-- Header -->
+                <div class="text-center lg:text-left">
+                    <h1 class="text-3xl md:text-4xl font-semibold lg:text-5xl mt-0 mb-2">Mehmet Akif Tütüncü</h1>
+                </div>
+
+                <!-- CV Section -->
+                <div class="flex flex-row justify-center lg:justify-start mt-3 md:mt-6">
+                    <a href="cv.pdf" target="_blank" class="flex items-center border border-black p-1 m-1">
+                        <span class="mr-1">📄</span>
+                        <span class="text-xs">CV</span>
+                    </a>
+                    <a href="cv-ats.pdf" target="_blank" class="flex items-center border border-black p-1 m-1">
+                        <span class="mr-1">📄</span>
+                        <span class="text-xs">CV (Single-column, ATS-friendlier version)</span>
+                    </a>
+                </div>
+
+                <!-- Bio Section -->
+                <div class="flex flex-col items-center lg:items-start text-sm md:text-base mt-5 md:mt-6">
+                    <div class="flex items-center my-0.5">
+                        <span class="mx-1">👨🏻‍💻</span>
+                        <span>Lead Software Engineer at 
+                            <a href="https://www.rabobank.nl" target="_blank" class="no-underline">Rabobank</a> through 
+                            <a href="https://iodigital.com" target="_blank" class="no-underline">iO</a>
+                        </span>
+                    </div>
+                    <div class="flex items-center my-0.5">
+                        <span class="mx-1">🎓</span>
+                        <span>Izmir Institute of Technology</span>
+                    </div>
+                    <div class="flex items-center my-0.5">
+                        <span class="mx-1">❤️</span>
+                        <span>Open source and functional programming advocate</span>
+                    </div>
+                    <div class="flex items-center my-0.5">
+                        <span class="mx-1">⌨️</span>
+                        <span>Writes</span>
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/scala.svg" class="w-4 h-4 mx-1" alt="Scala">
+                        <span>Scala,</span>
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/kotlin.svg" class="w-4 h-4 mx-1" alt="Kotlin">
+                        <span>Kotlin,</span>
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" class="w-4 h-4 mx-1" alt="Java">
+                        <span>Java and</span>
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/go.svg" class="w-4 h-4 mx-1" alt="Go">
+                        <span>Go</span>
+                    </div>
+                </div>
+
+                <!-- Links Section -->
+                <div class="flex flex-wrap justify-center lg:justify-start mt-5 md:mt-6 md:px-0 px-12">
+                    <a href="mailto:m.akif.tutuncu@gmail.com" target="_blank" class="flex items-center border border-black p-1 m-1">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gmail.svg" class="w-6 h-6" alt="Email">
+                        <span class="text-xs ml-1">E-Mail</span>
+                    </a>
+                    <a href="https://github.com/makiftutuncu" target="_blank" class="flex items-center border border-black p-1 m-1">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" class="w-6 h-6" alt="GitHub">
+                        <span class="text-xs ml-1">GitHub</span>
+                    </a>
+                    <a href="https://gitlab.com/makiftutuncu" target="_blank" class="flex items-center border border-black p-1 m-1">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gitlab.svg" class="w-6 h-6" alt="GitLab">
+                        <span class="text-xs ml-1">GitLab</span>
+                    </a>
+                    <a href="https://linkedin.com/in/makiftutuncu" target="_blank" class="flex items-center border border-black p-1 m-1">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" class="w-6 h-6" alt="LinkedIn">
+                        <span class="text-xs ml-1">LinkedIn</span>
+                    </a>
+                    <a href="https://twitter.com/makiftutuncu" target="_blank" class="flex items-center border border-black p-1 m-1">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/x.svg" class="w-6 h-6" alt="X">
+                        <span class="text-xs ml-1">X</span>
+                    </a>
+                    <a href="https://instagram.com/makiftutuncu" target="_blank" class="flex items-center border border-black p-1 m-1">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" class="w-6 h-6" alt="Instagram">
+                        <span class="text-xs ml-1">Instagram</span>
+                    </a>
+                    <a href="https://makiftutuncu.wordpress.com" target="_blank" class="flex items-center border border-black p-1 m-1">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/wordpress.svg" class="w-6 h-6" alt="Blog">
+                        <span class="text-xs ml-1">Blog</span>
+                    </a>
+                    <a href="https://dev.to/makiftutuncu" target="_blank" class="flex items-center border border-black p-1 m-1">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/devdotto.svg" class="w-6 h-6" alt="Dev.to">
+                        <span class="text-xs ml-1">Blog</span>
+                    </a>
+                    <a href="https://androidce.blogspot.com" target="_blank" class="flex items-center border border-black p-1 m-1">
+                      <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/blogger.svg" class="w-6 h-6" alt="Blog">
+                      <span class="text-xs ml-1">Blog</span>
+                  </a>
+                  <a href="https://join.skype.com/invite/u4b5eUa8UTMB" target="_blank" class="flex items-center border border-black p-1 m-1">
+                      <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/skype.svg" class="w-6 h-6" alt="Skype">
+                      <span class="text-xs ml-1">Skype</span>
+                  </a>
+                  <a href="https://t.me/makiftutuncu" target="_blank" class="flex items-center border border-black p-1 m-1">
+                      <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/telegram.svg" class="w-6 h-6" alt="Telegram">
+                      <span class="text-xs ml-1">Telegram</span>
+                  </a>
+                  <a href="https://www.youtube.com/c/mehmetakiftutuncu" target="_blank" class="flex items-center border border-black p-1 m-1">
+                      <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/youtube.svg" class="w-6 h-6" alt="YouTube">
+                      <span class="text-xs ml-1">YouTube</span>
+                  </a>
+                  <a href="https://www.patreon.com/bePatron?u=41213628" target="_blank" class="flex items-center border border-black p-1 m-1">
+                      <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/patreon.svg" class="w-6 h-6" alt="Patreon">
+                      <span class="text-xs ml-1">Patreon</span>
+                  </a>
+                  <a href="https://www.buymeacoffee.com/akif" target="_blank" class="flex items-center border border-black p-1 m-1">
+                      <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/buymeacoffee.svg" class="w-6 h-6" alt="Buy Me a Coffee">
+                      <span class="text-xs ml-1">Buy Me a Coffee</span>
+                  </a>
+              </div>
+          </div>
       </div>
-      <div class="cv">
-        <a class="link" href="cv.pdf" target="_blank">
-          📄<span class="link-text">CV</span>
-        </a>
-        <a class="link" href="cv-ats.pdf" target="_blank">
-          📄<span class="link-text">CV (Single-column, ATS-friendlier version)</span>
-        </a>
-      </div>
-      <div class="bio">
-        <span class="bio-row">
-          <span class="bio-emoji">👨🏻‍💻</span>
-          <span class="bio-title">Lead Software Engineer at <a href="https://www.rabobank.nl" target="_blank">Rabobank</a> through <a href="https://iodigital.com" target="_blank">iO</a></span>
-        </span>
-        <span class="bio-row">
-          <span class="bio-emoji">🎓</span>
-          <span class="bio-title">Izmir Institute of Technology</span>
-        </span>
-        <span class="bio-row">
-          <span class="bio-emoji">❤️</span>
-          <span class="bio-title">Open source and functional programming advocate</span>
-        </span>
-        <span class="bio-row">
-          <span class="bio-emoji">⌨️</span>
-          <span class="bio-title">Writes</span>
-          <span class="bio-emoji"><img class="bio-icon"
-              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/scala.svg" /></span>
-          <span class="bio-title">Scala,</span>
-          <span class="bio-emoji"><img class="bio-icon"
-              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/kotlin.svg" /></span>
-          <span class="bio-title">Kotlin,</span>
-          <span class="bio-emoji"><img class="bio-icon"
-              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" /></span>
-          <span class="bio-title">Java and</span>
-          <span class="bio-emoji"><img class="bio-icon"
-              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/go.svg" /></span>
-          <span class="bio-title">Go</span>
-        </span>
-      </div>
-      <div class="links">
-        <a class="link" href="mailto:m.akif.tutuncu@gmail.com" target="_blank">
-          <img class="link-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gmail.svg" />
-          <span class="link-text">E-Mail</span>
-        </a>
-        <a class="link" href="https://github.com/makiftutuncu" target="_blank">
-          <img class="link-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
-          <span class="link-text">GitHub</span>
-        </a>
-        <a class="link" href="https://gitlab.com/makiftutuncu" target="_blank">
-          <img class="link-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gitlab.svg" />
-          <span class="link-text">GitLab</span>
-        </a>
-        <a class="link" href="https://linkedin.com/in/makiftutuncu" target="_blank">
-          <img class="link-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" />
-          <span class="link-text">LinkedIn</span>
-        </a>
-        <a class="link" href="https://twitter.com/makiftutuncu" target="_blank">
-          <img class="link-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/x.svg" />
-          <span class="link-text">X</span>
-        </a>
-        <a class="link" href="https://instagram.com/makiftutuncu" target="_blank">
-          <img class="link-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" />
-          <span class="link-text">Instagram</span>
-        </a>
-        <a class="link" href="https://makiftutuncu.wordpress.com" target="_blank">
-          <img class="link-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/wordpress.svg" />
-          <span class="link-text">Blog</span>
-        </a>
-        <a class="link" href="https://dev.to/makiftutuncu" target="_blank">
-          <img class="link-icon"
-            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNTEycHgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIGlkPSJjb21wX3g1Rl84NC1kZXYiPjxnPjxwYXRoIGQ9Ik0xODguNDM3LDIyMS44OThjLTAuMDA5LTE4LjQ4NC0xMS43MTctNDYuNDM2LTQ2LjUyNS00Ni40MzZIOTUuMzc5djE2Mi41MDVoNDUuNTczICAgIGMzNi4wOTMsMC4wNiw0Ny40OTYtMjcuOTM0LDQ3LjQ5Ni00Ni40MDhMMTg4LjQzNywyMjEuODk4eiBNMTYwLjcwMiwyOTEuMzc3YzAsNS43MDUtMS45MDcsOS45NzgtNS43MTYsMTIuODI2ICAgIGMtMy44MSwyLjg0Ni03LjYzMiw0LjI3MS0xMS40NDMsNC4yNzFoLTE3LjEzOVYyMDUuODdoMTcuMTI5YzMuODExLDAsNy42MzMsMS40MjQsMTEuNDQzLDQuMjcyICAgIGMzLjgwMSwyLjg0Nyw1LjcxNSw3LjEzLDUuNzI2LDEyLjgyNlYyOTEuMzc3eiIvPjxwYXRoIGQ9Ik0yODcuMzI4LDIwNC40ODVIMjM1djM3LjczNGgzMS45ODd2MjkuMDQxSDIzNXYzNy43MjRoNTIuMzM5djI5LjA0NGgtNjEuMDcxYy0xMC45NTksMC4yODItMjAuMDc0LTguMzc5LTIwLjM0OS0xOS4zMzkgICAgVjE5NS44MTNjLTAuMjY3LTEwLjk1MSw4LjQwNi0yMC4wNDUsMTkuMzU3LTIwLjMxOWg2Mi4wNjNMMjg3LjMyOCwyMDQuNDg1TDI4Ny4zMjgsMjA0LjQ4NXoiLz48cGF0aCBkPSJNMzg5LjExNywzMTcuNzE3Yy0xMi45NjUsMzAuMjAxLTM2LjE5MSwyNC4xODktNDYuNTk0LDBsLTM3Ljg0LTE0Mi4yMTRoMzEuOTg4bDI5LjE4LDExMS42OWwyOS4wNDMtMTExLjY5aDMxLjk5NiAgICBMMzg5LjExNywzMTcuNzE3TDM4OS4xMTcsMzE3LjcxN3oiLz48cGF0aCBkPSIgICAgTTQyNC40MDEsNDcxSDg3LjU5OUM2MS44NjMsNDcxLDQxLDQ1MC4xMzcsNDEsNDI0LjQwMVY4Ny41OTlDNDEsNjEuODYzLDYxLjg2Myw0MSw4Ny41OTksNDFoMzM2LjgwMiAgICBDNDUwLjEzNyw0MSw0NzEsNjEuODYzLDQ3MSw4Ny41OTl2MzM2LjgwMkM0NzEsNDUwLjEzNyw0NTAuMTM3LDQ3MSw0MjQuNDAxLDQ3MXoiIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIwO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDsiLz48L2c+PC9nPjxnIGlkPSJMYXllcl8xIi8+PC9zdmc+" />
-          <span class="link-text">Blog</span>
-        </a>
-        <a class="link" href="https://androidce.blogspot.com" target="_blank">
-          <img class="link-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/blogger.svg" />
-          <span class="link-text">Blog</span>
-        </a>
-        <a class="link" href="https://join.skype.com/invite/u4b5eUa8UTMB" target="_blank">
-          <img class="link-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/skype.svg" />
-          <span class="link-text">Skype</span>
-        </a>
-        <a class="link" href="https://t.me/makiftutuncu" target="_blank">
-          <img class="link-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/telegram.svg" />
-          <span class="link-text">Telegram</span>
-        </a>
-        <a class="link" href="https://www.youtube.com/c/mehmetakiftutuncu" target="_blank">
-          <img class="link-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/youtube.svg" />
-          <span class="link-text">YouTube</span>
-        </a>
-        <a class="link" href="https://www.patreon.com/bePatron?u=41213628" target="_blank">
-          <img class="link-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/patreon.svg" />
-          <span class="link-text">Patreon</span>
-        </a>
-        <a class="link" href="https://www.buymeacoffee.com/akif" target="_blank">
-          <img class="link-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/buymeacoffee.svg" />
-          <span class="link-text">Buy Me a Coffee</span>
-        </a>
-      </div>
-    </div>
   </div>
 </body>
+</html>
